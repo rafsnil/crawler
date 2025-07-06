@@ -1,0 +1,48 @@
+Initial plan to use a queue
+
+As the test set the crawling target to products and its related info only, I am thinking of just sticking to the product pages and their related information. This means I will focus on extracting data from product listings, product details, reviews, and any other relevant sections that provide insights into the products themselves.\
+
+Although as of now, i am still not sure how to do that. Lets check the site structure and see if there are any patterns or specific URLs that can be targeted for product-related data.
+
+I just realized sth,
+as my crawl target is basically this type of link: https://shop.adidas.jp/products/JM4730/
+what if i just get the productId by processing the strings from below and directly hit this API?
+that way my crawler basically just need to extract the productID and i'll write a separate scarper to visit the product id link and scrape off its required data?
+I just tested the product url above with a series of products and it's working for every cases. I'll go ahead with this as time is also a constraint at this moment.
+
+WORKFLOW OF THE CRAWLER SO FAR:
+1. Visit base url and extract all the links (BASE_URL = https://shop.adidas.jp/men/)
+
+https://shop.adidas.jp/products/KPV99/
+
+BREADCRUMB:
+	<ol data-testid = "breadcrumb">
+	   <li itemprop = "itemListElement">
+So in full : Home is an <li> and london_tennis is an <li>
+Hence, total should be a concat of all the list items:
+	Home/london_tennis
+
+
+
+PRODUCTS:
+    <main data-testid = "product-grid"> [if this exists in the page, then there's a product listing]
+          <article data-testid = "plp-product-card">
+                <div class = "product-card_product-card-content__bjeq">
+                // `BREADCRUMB` will only be stored after a 'GET' req to the "product-card-description-link"
+                    <a data-testid = "product-card-description-link"> // has the link to the description, also i can get the product ID, which i can then use to hit some APIs to fetch some of the required data
+
+
+REVIEWS:
+https://www.adidas.jp/api/models/HBB38/reviews?bazaarVoiceLocale=ja_JP&feature&includeLocales=ja%2A&offset=0&sort=newest
+
+
+"size_chart_link": "\u002Fon\u002Fdemandware.store\u002FSites-adidas-JP-Site\u002Fja_JP\u002FPage-Include?cid=size-chart-size-w_bottoms"
+
+
+ <script>
+      window.REACT_QUERY_DATA = {
+        {{THIS IS WHERE THE JSON DATA OF 'react_data.json' and }}
+      }
+ </script>
+
+lets just singleton the queue, tracker and counter for thread safe, consistent data and no duplicates

@@ -1,0 +1,1051 @@
+{
+  "mutations": [],
+  "queries": [{
+    "state": {
+      "data": {
+        "id": "JC6719",
+        "product_type": "inline",
+        "base_model_number": "KPV99",
+        "model_number": "KPV99",
+        "name": "アディカラー デニム ファイヤーバードショーツ",
+        "meta_data": {
+          "canonical": "\u002F\u002Fwww.adidas.jp\u002F%E3%82%A2%E3%83%87%E3%82%A3%E3%82%AB%E3%83%A9%E3%83%BC-%E3%83%87%E3%83%8B%E3%83%A0-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%90%E3%83%BC%E3%83%89%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%84\u002FJC6719.html",
+          "description": "アディカラー デニム ファイヤーバードショーツのお買い求めはアディダス公式オンラインショップで。[adidas公式通販】なら30日以内返品可能（一部商品を除く)。会員登録で10% OFFクーポンプレゼント。",
+          "keywords": "アディカラー デニム ファイヤーバードショーツ",
+          "page_title": "アディダス アディカラー デニム ファイヤーバードショーツ - ブラック | アディダス ジャパン",
+          "site_name": "adidas ジャパン"
+        },
+        "view_list": [{
+          "type": "model",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fadb052b0f3a1484e91dc284ecefd4e6d_9366\u002FJC6719_21_model.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "imageStyle": "On Model",
+            "view": "Standard View",
+            "usageTerms": "eCommerce",
+            "sortOrder": "1",
+            "subjects": [{
+              "modelHeight": "187 cm",
+              "modelChest": "84 cm",
+              "modelWaist": "72 cm",
+              "productSize": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:56:01Z"
+        }, {
+          "type": "videoasset",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fvideos\u002Fw_600,f_auto,q_auto\u002F521ecfff711e4526ad9768d36f77324e_d98c\u002FJC6719_video.jpg",
+          "video_url": "https:\u002F\u002Fassets.adidas.com\u002Fvideos\u002Ft_videomain\u002F521ecfff711e4526ad9768d36f77324e_d98c\u002FJC6719_video.mp4",
+          "source": "CLOUDINARY",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Video",
+            "imageStyle": "On Model",
+            "view": "None",
+            "usageTerms": "eCommerce",
+            "sortOrder": "7",
+            "subjects": [{
+              "modelHeight": "187 cm",
+              "modelChest": "84 cm",
+              "modelWaist": "72 cm",
+              "productSize": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-15T12:15:41Z"
+        }, {
+          "type": "model",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F0f3fda19364d480aac6dda751ede2392_9366\u002FJC6719_23_hover_model.jpg",
+          "metadata": {
+            "asset_usage": ["pdp", "plp"],
+            "asset_category": "Photography",
+            "imageStyle": "On Model",
+            "view": "Back View",
+            "usageTerms": "eCommerce",
+            "sortOrder": "2",
+            "subjects": [{
+              "modelHeight": "187 cm",
+              "modelChest": "84 cm",
+              "modelWaist": "72 cm",
+              "productSize": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:14:24Z"
+        }, {
+          "type": "model",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fd063b2af68b9481abe740358390fc079_9366\u002FJC6719_25_model.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "imageStyle": "On Model",
+            "view": "Walking View",
+            "usageTerms": "eCommerce",
+            "sortOrder": "3",
+            "subjects": [{
+              "modelHeight": "187 cm",
+              "modelChest": "84 cm",
+              "modelWaist": "72 cm",
+              "productSize": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:47:52Z"
+        }, {
+          "type": "other",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F21aaf7a1aacc4823909e37785723755b_9366\u002FJC6719_01_laydown.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "imageStyle": "3D Torso",
+            "view": "Front Center View",
+            "usageTerms": "eCommerce",
+            "sortOrder": "4",
+            "subjects": [{
+              "productSize": "50"
+            }]
+          },
+          "file_revision_date": "2024-11-20T09:00:46Z"
+        }, {
+          "type": "detail",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F8ede2e85088c472e9a644362ead124f2_9366\u002FJC6719_41_detail.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "imageStyle": "On Model",
+            "view": "Detail View 1",
+            "usageTerms": "eCommerce",
+            "sortOrder": "5",
+            "subjects": [{
+              "modelHeight": "187 cm",
+              "modelChest": "84 cm",
+              "modelWaist": "72 cm",
+              "productSize": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:16:00Z"
+        }, {
+          "type": "detail",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F9370e50ed6e142969b88e924ff2b0e73_9366\u002FJC6719_42_detail.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "imageStyle": "On Model",
+            "view": "Detail View 2",
+            "usageTerms": "eCommerce",
+            "sortOrder": "6",
+            "subjects": [{
+              "modelHeight": "187 cm",
+              "modelChest": "84 cm",
+              "modelWaist": "72 cm",
+              "productSize": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:18:34Z"
+        }],
+        "dynamic_background_assets": [{
+          "type": "model",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fadb052b0f3a1484e91dc284ecefd4e6d_faec\u002FJC6719_db21_model.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Standard View",
+            "usage_terms": "eCommerce",
+            "sort_order": "1",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:56:01Z"
+        }, {
+          "type": "model",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F0f3fda19364d480aac6dda751ede2392_faec\u002FJC6719_db23_hover_model.tiff.jpg",
+          "metadata": {
+            "asset_usage": ["pdp", "plp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Back View",
+            "usage_terms": "eCommerce",
+            "sort_order": "2",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:14:24Z"
+        }, {
+          "type": "model",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fd063b2af68b9481abe740358390fc079_faec\u002FJC6719_db25_model.tiff.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Walking View",
+            "usage_terms": "eCommerce",
+            "sort_order": "3",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:47:52Z"
+        }, {
+          "type": "other",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F21aaf7a1aacc4823909e37785723755b_faec\u002FJC6719_db01_laydown.tiff.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "image_style": "3D Torso",
+            "view": "Front Center View",
+            "usage_terms": "eCommerce",
+            "sort_order": "4",
+            "subjects": [{
+              "product_size": "50"
+            }]
+          },
+          "file_revision_date": "2024-11-20T09:00:46Z"
+        }, {
+          "type": "detail",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F8ede2e85088c472e9a644362ead124f2_faec\u002FJC6719_db41_detail.tiff.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Detail View 1",
+            "usage_terms": "eCommerce",
+            "sort_order": "5",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:16:00Z"
+        }, {
+          "type": "detail",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F9370e50ed6e142969b88e924ff2b0e73_faec\u002FJC6719_db42_detail.tiff.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Detail View 2",
+            "usage_terms": "eCommerce",
+            "sort_order": "6",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:18:34Z"
+        }],
+        "confirmed_dynamic_background_assets": [{
+          "type": "model",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fadb052b0f3a1484e91dc284ecefd4e6d_faec\u002FJC6719_db21_model.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Standard View",
+            "usage_terms": "eCommerce",
+            "sort_order": "1",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:56:01Z"
+        }, {
+          "type": "model",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F0f3fda19364d480aac6dda751ede2392_faec\u002FJC6719_db23_hover_model.jpg",
+          "metadata": {
+            "asset_usage": ["pdp", "plp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Back View",
+            "usage_terms": "eCommerce",
+            "sort_order": "2",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:14:24Z"
+        }, {
+          "type": "model",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fd063b2af68b9481abe740358390fc079_faec\u002FJC6719_db25_model.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Walking View",
+            "usage_terms": "eCommerce",
+            "sort_order": "3",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:47:52Z"
+        }, {
+          "type": "other",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F21aaf7a1aacc4823909e37785723755b_faec\u002FJC6719_db01_laydown.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "image_style": "3D Torso",
+            "view": "Front Center View",
+            "usage_terms": "eCommerce",
+            "sort_order": "4",
+            "subjects": [{
+              "product_size": "50"
+            }]
+          },
+          "file_revision_date": "2024-11-20T09:00:46Z"
+        }, {
+          "type": "detail",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F8ede2e85088c472e9a644362ead124f2_faec\u002FJC6719_db41_detail.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Detail View 1",
+            "usage_terms": "eCommerce",
+            "sort_order": "5",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:16:00Z"
+        }, {
+          "type": "detail",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F9370e50ed6e142969b88e924ff2b0e73_faec\u002FJC6719_db42_detail.jpg",
+          "metadata": {
+            "asset_usage": ["pdp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Detail View 2",
+            "usage_terms": "eCommerce",
+            "sort_order": "6",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:18:34Z"
+        }],
+        "product_listing_assets": [{
+          "type": "model",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fadb052b0f3a1484e91dc284ecefd4e6d_9366\u002FJC6719_000_plp_model.jpg",
+          "metadata": {
+            "asset_usage": ["plp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Standard View",
+            "usage_terms": "eCommerce",
+            "sort_order": "0",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:56:01Z"
+        }, {
+          "type": "model",
+          "source": "CLOUDINARY",
+          "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F0f3fda19364d480aac6dda751ede2392_9366\u002FJC6719_23_hover_model.jpg",
+          "metadata": {
+            "asset_usage": ["pdp", "plp"],
+            "asset_category": "Photography",
+            "image_style": "On Model",
+            "view": "Back View",
+            "usage_terms": "eCommerce",
+            "sort_order": "2",
+            "subjects": [{
+              "model_height": "187 cm",
+              "model_chest": "84 cm",
+              "model_waist": "72 cm",
+              "product_size": "34",
+              "gender": "male"
+            }]
+          },
+          "file_revision_date": "2024-11-13T17:14:24Z"
+        }],
+        "attribute_list": {
+          "rise": ["ミッドウェスト"],
+          "sale": false,
+          "brand": "オリジナルス",
+          "color": "True Black Denim",
+          "colors": {
+            "color1code": "A4UP"
+          },
+          "gender": "M",
+          "outlet": false,
+          "rise_id": ["Mid Waist"],
+          "sport": ["ライフスタイル"],
+          "closure": ["引きひも"],
+          "category": "ウェア・服",
+          "size_page": "IN",
+          "sport_ids": ["Lifestyle"],
+          "functions": ["ハーフパンツ"],
+          "sportSub": ["spring collection"],
+          "back_length": ["ひざ丈"],
+          "best_for_ids": ["Membership_1"],
+          "category_id": ["Clothing"],
+          "closure_ids": ["Drawstring"],
+          "productfit": ["ルーズフィット"],
+          "weight_unit": "g",
+          "collection": ["the_original"],
+          "search_color": "ブラック",
+          "base_material": ["コットン", "デニム"],
+          "productType": ["ショートパンツ・短パン"],
+          "back_length_ids": ["Knee Length"],
+          "midsole_offset": "0.000",
+          "product_fit_ids": ["Loose"],
+          "personalizable": false,
+          "toe_stack_height": "0.00",
+          "base_material_ids": ["Cotton", "Denim"],
+          "heel_stack_height": "0.00",
+          "isCnCRestricted": false,
+          "key_category_code": "00009",
+          "gift_wrapping_flag": true,
+          "genericProductType": ["Shorts", "Bottoms"],
+          "on_model_measurement": {
+            "chest": "84 cm",
+            "waist": "72 cm",
+            "model_height": "187 cm",
+            "product_size": "34"
+          },
+          "mandatory_personalization": false,
+          "product_type_generic_product_type": "Shorts",
+          "sustainability_ethics_compliance_ids": ["Renewable Materials", "All Sustainable"],
+          "customizable": false,
+          "search_color_raw": "ブラック",
+          "is_orderable": true,
+          "isWaitingRoomProduct": false,
+          "isInPreview": false,
+          "specialLaunch": false,
+          "special_launch_type": "NONE",
+          "sizeTypes": {},
+          "is_flash": false,
+          "is_made_to_be_remade": false,
+          "coming_soon_signup": false,
+          "preview_to": "2025-03-13T01:00:00.000Z",
+          "product_sizing_category": "bottom",
+          "size_chart_id": "size-chart-size-m_bottoms",
+          "size_chart_link": "\u002Fon\u002Fdemandware.store\u002FSites-adidas-JP-Site\u002Fja_JP\u002FPage-Include?cid=size-chart-size-m_bottoms"
+        },
+        "breadcrumb_list": [{
+          "text": "メンズ",
+          "link": "\u002Fメンズ"
+        }, {
+          "text": "ウェア・服",
+          "link": "\u002Fメンズ-ウェア・服"
+        }],
+        "callouts": {
+          "callout_top_stack": [{
+            "id": "10-pdp-normal-product"
+          }]
+        },
+        "pricing_information": {
+          "currentPrice": 12100,
+          "standard_price": 12100,
+          "standard_price_no_vat": 11000
+        },
+        "price_information": [{
+          "value": 12100,
+          "value_no_vat": 11000,
+          "type": "original"
+        }],
+        "tax_class_id": "FullTax",
+        "product_description": {
+          "title": "アディカラー デニム ファイヤーバードショーツ",
+          "text": "このアディダスショーツは、オフの日にぴったりなソフトなデニム使いのアイテム。くつろいだ雰囲気を生むルーズなシルエット。アディダスの誇りを感じさせる左脚の刺しゅうと、サイドのスリーストライプスがアクセントになっている。",
+          "subtitle": "スリーストライプス スタイルのカジュアルなデニムショーツ。",
+          "usps": ["ルーズフィット", "ジップフライ \u002F ボタンクロージャー", "綿100%", "前後にポケット"],
+          "wash_care_instructions": {
+            "care_instructions": [{
+              "code": "B1",
+              "description": "漂白剤を使用しないでください"
+            }, {
+              "code": "C2",
+              "description": "低温でタンブル乾燥機を使用してください"
+            }, {
+              "code": "E1",
+              "description": "ドライクリーニングできない製品です"
+            }, {
+              "code": "D2",
+              "description": "低温（通常100℃以下）でアイロンをかけてください"
+            }, {
+              "code": "A3",
+              "description": "洗濯機で冷水で洗ってください"
+            }],
+            "extra_care_instructions": ["洗剤は中性洗剤をご使用ください。", "ファスナー・面ファスナー・釦・バックルは閉じてお洗い下さい。", "柔軟剤の使用はお避け下さい。", "色移りの可能性があるので、淡色のものとの組み合わせはお避け下さい。", "洗濯後は速やかに取り出してください。", "同色の製品と一緒の洗濯をお勧めします。"]
+          },
+          "description_assets": {
+            "image_url": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fd063b2af68b9481abe740358390fc079_9366\u002FJC6719.jpg",
+            "video_url": null,
+            "poster_url": null
+          }
+        },
+        "recommendationsEnabled": true,
+        "product_link_list": [{
+          "type": "complete-the-look",
+          "productId": "IE1377",
+          "name": "サンバ XLG \u002F Samba XLG",
+          "url": "\u002F%E3%82%B5%E3%83%B3%E3%83%90-xlg-samba-xlg\u002FIE1377.html",
+          "image": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fa16aacd2a80b4897bda6ad67f987b8dd_9366\u002FXLG_-_Samba_XLG_IE1377_01_standard.jpg",
+          "altImage": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fa16aacd2a80b4897bda6ad67f987b8dd_9366\u002FXLG_-_Samba_XLG_IE1377_01_standard.jpg",
+          "dynamic_background_image": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fa16aacd2a80b4897bda6ad67f987b8dd_faec\u002FXLG_-_Samba_XLG_IE1377_db01_standard.jpg",
+          "confirmed_dynamic_background_image": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002Fa16aacd2a80b4897bda6ad67f987b8dd_faec\u002FXLG_-_Samba_XLG_IE1377_db01_standard.jpg",
+          "pricing_information": {
+            "standard_price": 17600
+          },
+          "price_information": [{
+            "value": 17600,
+            "value_no_vat": 16000,
+            "type": "original"
+          }],
+          "search_color": "ホワイト",
+          "default_color": "Cloud White \u002F Core Black \u002F Gum",
+          "source": "CLOUDINARY"
+        }, {
+          "type": "complete-the-look",
+          "productId": "JP2676",
+          "name": "スポンサーズ 半袖Tシャツ",
+          "url": "\u002F%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B5%E3%83%BC%E3%82%BA-%E5%8D%8A%E8%A2%96t%E3%82%B7%E3%83%A3%E3%83%84\u002FJP2676.html",
+          "image": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F0b649a9240f94c9bb568652bb3931adf_9366\u002FT_JP2676_21_model.jpg",
+          "altImage": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F0b649a9240f94c9bb568652bb3931adf_9366\u002FT_JP2676_21_model.jpg",
+          "dynamic_background_image": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F0b649a9240f94c9bb568652bb3931adf_faec\u002FT_JP2676_db000_plp_model.tiff.jpg",
+          "confirmed_dynamic_background_image": "https:\u002F\u002Fassets.adidas.com\u002Fimages\u002Fw_600,f_auto,q_auto\u002F0b649a9240f94c9bb568652bb3931adf_faec\u002FT_JP2676_db21_model.tiff.jpg",
+          "pricing_information": {
+            "standard_price": 4950,
+            "sale_price": 3960
+          },
+          "price_information": [{
+            "value": 4950,
+            "value_no_vat": 4500,
+            "type": "original",
+            "discount_percentage": -20
+          }, {
+            "value": 3960,
+            "value_no_vat": 3600,
+            "type": "sale"
+          }],
+          "search_color": "ブラック",
+          "default_color": "Black",
+          "source": "CLOUDINARY"
+        }],
+        "product_certificates": {
+          "legalCountryofOrigin": "Indonesia"
+        },
+        "variation_list": [{
+          "sku": "JC6719_300",
+          "size": "28"
+        }, {
+          "sku": "JC6719_320",
+          "size": "30"
+        }, {
+          "sku": "JC6719_360",
+          "size": "32"
+        }, {
+          "sku": "JC6719_380",
+          "size": "33"
+        }, {
+          "sku": "JC6719_400",
+          "size": "34"
+        }, {
+          "sku": "JC6719_410",
+          "size": "35"
+        }, {
+          "sku": "JC6719_420",
+          "size": "36"
+        }, {
+          "sku": "JC6719_430",
+          "size": "37"
+        }, {
+          "sku": "JC6719_440",
+          "size": "38"
+        }, {
+          "sku": "JC6719_460",
+          "size": "40"
+        }],
+        "links": {
+          "self": {
+            "href": "\u002Fapi\u002Fproducts\u002FJC6719"
+          }
+        }
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1751639746964,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    },
+    "queryKey": ["\u002Fapi\u002Fproducts\u002FJC6719"],
+    "queryHash": "[\"\u002Fapi\u002Fproducts\u002FJC6719\"]"
+  }, {
+    "state": {
+      "data": {
+        "uid": "pdp-metapage-34700",
+        "pageType": "ProductDetailPage",
+        "publishedAt": "2025-05-02T01:43:48.687Z",
+        "contentType": "pdp-metapage",
+        "locale": "ja-JP",
+        "resolutionType": "content-layout",
+        "resolvedLayouts": [{
+          "template": null,
+          "metadata": {
+            "audience": "default",
+            "analyticsTag": "JP_PDP_Top_Callouts-_-308338-_-",
+            "audiences": ["default"],
+            "displayStyles": [],
+            "tags": [],
+            "products": {
+              "productItems": [],
+              "url": null
+            }
+          },
+          "publishedAt": "2025-05-02T01:43:49.022Z",
+          "locale": "ja-JP",
+          "version": 34,
+          "uid": "layout-308342",
+          "pageType": "ProductDetailPage",
+          "contents": [{
+            "callouts": [{
+              "summary": "・こちらの商品は返品可能です。",
+              "metadata": {
+                "audience": "default",
+                "analyticsTag": "10-pdp-normal-product-_-34670-_-",
+                "audiences": ["default"],
+                "displayStyles": [],
+                "tags": [],
+                "products": {
+                  "productItems": [],
+                  "url": null
+                }
+              },
+              "calloutId": "10-pdp-normal-product",
+              "publishedAt": null,
+              "title": null,
+              "locale": "ja-JP",
+              "version": 3,
+              "countdownTimer": {
+                "timer": null,
+                "title": null
+              },
+              "uid": "pdp-callout-34759",
+              "cta": null,
+              "membershipPopup": null,
+              "name": "10-pdp-normal-product",
+              "pdpPopup": null,
+              "contentType": "pdp-callout"
+            }, {
+              "summary": "・こちらの商品はクーポン適用対象外となります。\n・こちらの商品は返品可能です。",
+              "metadata": {
+                "audience": "default",
+                "analyticsTag": "15-pdp-coupon-excluded-products-_-23942-_-",
+                "audiences": ["default"],
+                "displayStyles": [],
+                "tags": [],
+                "products": {
+                  "productItems": [],
+                  "url": null
+                }
+              },
+              "calloutId": "15-pdp-coupon-excluded-products",
+              "publishedAt": null,
+              "title": null,
+              "locale": "ja-JP",
+              "version": 4,
+              "countdownTimer": {
+                "timer": null,
+                "title": null
+              },
+              "uid": "pdp-callout-23966",
+              "cta": null,
+              "membershipPopup": null,
+              "name": "15-pdp-coupon-excluded-products",
+              "pdpPopup": null,
+              "contentType": "pdp-callout"
+            }, {
+              "summary": "・こちらの商品はクーポン適用対象外となります。\n・お一人様1商品5点までとさせていただきます。\n・こちらの商品は返品可能です。\n",
+              "metadata": {
+                "audience": "default",
+                "analyticsTag": "30-pdp-limited-edition-_-23726-_-",
+                "audiences": ["default"],
+                "displayStyles": [],
+                "tags": [],
+                "products": {
+                  "productItems": [],
+                  "url": null
+                }
+              },
+              "calloutId": "30-pdp-limited-edition",
+              "publishedAt": null,
+              "title": null,
+              "locale": "ja-JP",
+              "version": 6,
+              "countdownTimer": {
+                "timer": null,
+                "title": null
+              },
+              "uid": "pdp-callout-23731",
+              "cta": null,
+              "membershipPopup": null,
+              "name": "30-pdp-limited-edition",
+              "pdpPopup": null,
+              "contentType": "pdp-callout"
+            }, {
+              "summary": "・こちらの商品はクーポン適用対象外となります。\n・お一人様1商品5点までとさせていただきます。\n・こちらの商品は返品不可となります。",
+              "metadata": {
+                "audience": "default",
+                "analyticsTag": "40-ultra-limited-edition-2-_-23995-_-",
+                "audiences": ["default"],
+                "displayStyles": [],
+                "tags": [],
+                "products": {
+                  "productItems": [],
+                  "url": null
+                }
+              },
+              "calloutId": "40-pdp-ultra-limited-edition-2",
+              "publishedAt": null,
+              "title": null,
+              "locale": "ja-JP",
+              "version": 7,
+              "countdownTimer": {
+                "timer": null,
+                "title": null
+              },
+              "uid": "pdp-callout-24041",
+              "cta": null,
+              "membershipPopup": null,
+              "name": "40-ultra-limited-edition-2",
+              "pdpPopup": null,
+              "contentType": "pdp-callout"
+            }, {
+              "summary": "・こちらの商品はクーポン適用対象外となります。\n・お一人様1商品5点までとさせていただきます。\n・こちらの商品は返品不可となります。\n",
+              "metadata": {
+                "audience": "default",
+                "analyticsTag": "45-ultra-limited-edition-1-_-24048-_-",
+                "audiences": ["default"],
+                "displayStyles": [],
+                "tags": [],
+                "products": {
+                  "productItems": [],
+                  "url": null
+                }
+              },
+              "calloutId": "45-pdp-ultra-limited-edition-1",
+              "publishedAt": null,
+              "title": null,
+              "locale": "ja-JP",
+              "version": 7,
+              "countdownTimer": {
+                "timer": null,
+                "title": null
+              },
+              "uid": "pdp-callout-24053",
+              "cta": null,
+              "membershipPopup": null,
+              "name": "45-ultra-limited-edition-1",
+              "pdpPopup": null,
+              "contentType": "pdp-callout"
+            }, {
+              "summary": "・こちらの商品はクーポン適用対象外となります。\n・お一人様1商品1点までとさせていただきます。\n・こちらの商品は返品不可となります。\n",
+              "metadata": {
+                "audience": "default",
+                "analyticsTag": "50-pdp-the-finished-product-_-24101-_-",
+                "audiences": ["default"],
+                "displayStyles": [],
+                "tags": [],
+                "products": {
+                  "productItems": [],
+                  "url": null
+                }
+              },
+              "calloutId": "50-pdp-the-finished-product",
+              "publishedAt": null,
+              "title": null,
+              "locale": "ja-JP",
+              "version": 7,
+              "countdownTimer": {
+                "timer": null,
+                "title": null
+              },
+              "uid": "pdp-callout-24104",
+              "cta": null,
+              "membershipPopup": null,
+              "name": "50-pdp-the-finished-product",
+              "pdpPopup": null,
+              "contentType": "pdp-callout"
+            }, {
+              "summary": "・お一人様1商品1点までとさせていただきます。\n・商品到着から14日内返品可能です。",
+              "metadata": {
+                "audience": "default",
+                "analyticsTag": "51-pdp-returnable-2weeks-_-24966-_-",
+                "audiences": ["default"],
+                "displayStyles": [],
+                "tags": [],
+                "products": {
+                  "productItems": [],
+                  "url": null
+                }
+              },
+              "calloutId": "51-pdp-returnable-2weeks",
+              "publishedAt": null,
+              "title": null,
+              "locale": "ja-JP",
+              "version": 4,
+              "countdownTimer": {
+                "timer": null,
+                "title": null
+              },
+              "uid": "pdp-callout-24969",
+              "cta": null,
+              "membershipPopup": null,
+              "name": "51-pdp-returnable-2weeks",
+              "pdpPopup": null,
+              "contentType": "pdp-callout"
+            }, {
+              "summary": "・お一人様1商品1点までとさせていただきます。\n・商品到着から28日内返品可能です。",
+              "metadata": {
+                "audience": "default",
+                "analyticsTag": "52-pdp-returnable-4weeks-_-25019-_-",
+                "audiences": ["default"],
+                "displayStyles": [],
+                "tags": [],
+                "products": {
+                  "productItems": [],
+                  "url": null
+                }
+              },
+              "calloutId": "52-pdp-returnable-4weeks",
+              "publishedAt": null,
+              "title": null,
+              "locale": "ja-JP",
+              "version": 4,
+              "countdownTimer": {
+                "timer": null,
+                "title": null
+              },
+              "uid": "pdp-callout-25051",
+              "cta": null,
+              "membershipPopup": null,
+              "name": "52-pdp-returnable-4weeks",
+              "pdpPopup": null,
+              "contentType": "pdp-callout"
+            }, {
+              "summary": "・こちらの商品はクーポン適用対象外となります。\n・お一人様1商品5点までとさせていただきます。\n・こちらの商品は返品不可となります。\n・納期は現在１週間ほどいただいております。\n",
+              "metadata": {
+                "audience": "default",
+                "analyticsTag": "46-pdp-ultra-limited-edition-3-_-30392-_-",
+                "audiences": ["default"],
+                "displayStyles": [],
+                "tags": [],
+                "products": {
+                  "productItems": [],
+                  "url": null
+                }
+              },
+              "calloutId": "46-pdp-ultra-limited-edition-3",
+              "publishedAt": null,
+              "title": null,
+              "locale": "ja-JP",
+              "version": 3,
+              "countdownTimer": {
+                "timer": null,
+                "title": null
+              },
+              "uid": "pdp-callout-30395",
+              "cta": null,
+              "membershipPopup": null,
+              "name": "46-pdp-ultra-limited-edition-3",
+              "pdpPopup": null,
+              "contentType": "pdp-callout"
+            }, {
+              "summary": null,
+              "metadata": {
+                "audience": "default",
+                "analyticsTag": "25-pdp-omni-prohibit-items-_-33872-_-",
+                "audiences": ["default"],
+                "displayStyles": [],
+                "tags": [],
+                "products": {
+                  "productItems": [],
+                  "url": null
+                }
+              },
+              "calloutId": "25-pdp-omni-prohibit-items",
+              "publishedAt": null,
+              "title": null,
+              "locale": "ja-JP",
+              "version": 0,
+              "countdownTimer": {
+                "timer": null,
+                "title": null
+              },
+              "uid": "pdp-callout-33913",
+              "cta": null,
+              "membershipPopup": null,
+              "name": "25-pdp-omni-prohibit-items",
+              "pdpPopup": null,
+              "contentType": "pdp-callout"
+            }, {
+              "summary": "カートで更に割引になる機会をお見逃しなく。4月7日まで。",
+              "metadata": {
+                "audience": "default",
+                "analyticsTag": "pdp-Callout-Countdown-Timer-ATP-7832-_-33762-_-",
+                "audiences": ["default"],
+                "displayStyles": [{
+                  "displayStyle": "display-style-white"
+                }],
+                "tags": [],
+                "products": {
+                  "productItems": [],
+                  "url": null
+                }
+              },
+              "calloutId": "pdp-countdown-timer",
+              "publishedAt": null,
+              "title": "スプリングセールはまもなく終了します！",
+              "locale": "ja-JP",
+              "version": 9,
+              "countdownTimer": {
+                "timer": "2025-04-07T15:00:00.000Z",
+                "title": "終了まであと"
+              },
+              "uid": "pdp-callout-33803",
+              "cta": {
+                "metadata": {
+                  "audience": "default",
+                  "analyticsTag": "セール商品を見る_-セール?grid=true&sort=top-sellers-_-677952-_-",
+                  "audiences": ["default"],
+                  "displayStyles": [],
+                  "tags": [],
+                  "products": {
+                    "productItems": [],
+                    "url": null
+                  }
+                },
+                "publishedAt": null,
+                "title": "全ての対象商品を見る",
+                "locale": "ja-JP",
+                "version": 1,
+                "url": "https:\u002F\u002Fwww.adidas.jp\u002Fspring_sale?grid=true&sort=top-sellers",
+                "target": null,
+                "uid": "cta-678002",
+                "name": "セール商品を見る_\u002Fセール?grid=true&sort=top-sellers",
+                "contentType": "cta"
+              },
+              "membershipPopup": null,
+              "name": "pdp-Callout-Countdown-Timer-ATP-7832",
+              "pdpPopup": null,
+              "contentType": "pdp-callout"
+            }],
+            "metadata": {
+              "audience": "default",
+              "analyticsTag": "JP_PDP_Top_Callouts-_-3843-_-",
+              "audiences": ["default"],
+              "displayStyles": [],
+              "tags": [],
+              "products": {
+                "productItems": [],
+                "url": null
+              }
+            },
+            "publishedAt": null,
+            "type": "pdp-top-callout",
+            "locale": "ja-JP",
+            "version": 13,
+            "uid": "collection-pdp-callout-3847",
+            "name": "JP_PDP_Top_Callouts",
+            "contentType": "collection-pdp-callout",
+            "orderOnLayout": 0
+          }],
+          "name": "JP_PDP_Top_Callouts",
+          "contentType": "layout"
+        }],
+        "url": "\u002Fpdp\u002Ftop_callouts",
+        "productIds": []
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1751639746970,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    },
+    "queryKey": ["\u002Fcms-callouts?path=\u002Fpdp\u002Ftop_callouts"],
+    "queryHash": "[\"\u002Fcms-callouts?path=\u002Fpdp\u002Ftop_callouts\"]"
+  }]
+}

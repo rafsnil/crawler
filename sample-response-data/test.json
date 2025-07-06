@@ -1,0 +1,1286 @@
+{
+  "styles": [
+    {
+      "id": "25308915",
+      "productTotal": 3,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/oJiZ07gA/YLbG7iwv/1748223319.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/oJiZ07gA/YLbG7iwv/1748223319_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/oJiZ07gA/YLbG7iwv/1748223319_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/oJiZ07gA/wLJB7jKC/1748223319.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/oJiZ07gA/wLJB7jKC/1748223319_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/oJiZ07gA/wLJB7jKC/1748223319_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ GINZA SIX",
+      "model": {
+        "height": "175cm",
+        "gender": "MEN",
+        "nickname": "FS",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "29.0cm"
+        },
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "3XL"
+        },
+        {
+          "categoryName": "パンツ",
+          "categoryKey": "pants",
+          "size": "J/L"
+        }
+      ],
+      "productTotalText": "3 点",
+      "publishedAt": "2025-05-26"
+    },
+    {
+      "id": "25342141",
+      "productTotal": 2,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/nZinq5vd/sa5nhjaL/1747384673.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/nZinq5vd/sa5nhjaL/1747384673_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/nZinq5vd/sa5nhjaL/1747384673_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/nZinq5vd/jwMECEAR/1747384680.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/nZinq5vd/jwMECEAR/1747384680_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/nZinq5vd/jwMECEAR/1747384680_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ GINZA SIX",
+      "model": {
+        "height": "163cm",
+        "gender": "MEN",
+        "nickname": "KS",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "X-SMALL"
+        },
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "25.5cm"
+        }
+      ],
+      "productTotalText": "2 点",
+      "publishedAt": "2025-05-18"
+    },
+    {
+      "id": "25252042",
+      "productTotal": 4,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/AAixkGGr/C2qSxTJT/1746209886.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/AAixkGGr/C2qSxTJT/1746209886_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/AAixkGGr/C2qSxTJT/1746209886_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/NvwTpGQz/1746209892.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/NvwTpGQz/1746209892_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/NvwTpGQz/1746209892_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/nwApjUjY/1746209892.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/nwApjUjY/1746209892_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/nwApjUjY/1746209892_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/qNvAoEcG/1746209892.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/qNvAoEcG/1746209892_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/qNvAoEcG/1746209892_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/0nWp3Wjl/1746209892.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/0nWp3Wjl/1746209892_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/0nWp3Wjl/1746209892_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/pdDjvckM/1746209892.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/pdDjvckM/1746209892_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/pdDjvckM/1746209892_320.jpg"
+        }
+      ],
+      "description": "アディダス ブランドコアストア 池袋",
+      "model": {
+        "height": "156cm",
+        "gender": "WOMEN",
+        "nickname": "N.K",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "23.0cm"
+        },
+        {
+          "categoryName": "バッグ",
+          "categoryKey": "bag",
+          "size": "FREE"
+        },
+        {
+          "categoryName": "パンツ",
+          "categoryKey": "pants",
+          "size": "26"
+        },
+        {
+          "categoryName": "ジャケット/アウター",
+          "categoryKey": "jacket-outerwear",
+          "size": "SMALL"
+        }
+      ],
+      "productTotalText": "4 点",
+      "publishedAt": "2025-05-03"
+    },
+    {
+      "id": "25282963",
+      "productTotal": 4,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/rliw2V2A/d5uyCuNr/1745946880.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/rliw2V2A/d5uyCuNr/1745946880_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/rliw2V2A/d5uyCuNr/1745946880_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/rliw2V2A/b1UGJxnE/1745946887.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/rliw2V2A/b1UGJxnE/1745946887_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/rliw2V2A/b1UGJxnE/1745946887_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/rliw2V2A/cdG7niMH/1745946887.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/rliw2V2A/cdG7niMH/1745946887_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/rliw2V2A/cdG7niMH/1745946887_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/rliw2V2A/q6sldGfd/1745946887.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/rliw2V2A/q6sldGfd/1745946887_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/rliw2V2A/q6sldGfd/1745946887_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ ダイバーシティ東京 プラザ",
+      "model": {
+        "height": "161cm",
+        "gender": "WOMEN",
+        "nickname": "OY",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "23.5cm"
+        },
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "J/S"
+        },
+        {
+          "categoryName": "スカート",
+          "categoryKey": "skirt",
+          "size": "LARGE"
+        },
+        {
+          "categoryName": "バッグ",
+          "categoryKey": "bag",
+          "size": "フリー"
+        }
+      ],
+      "productTotalText": "4 点",
+      "publishedAt": "2025-04-30"
+    },
+    {
+      "id": "25270705",
+      "productTotal": 2,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/8BiXwlBk/CSEjr0YF/1745570480.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/8BiXwlBk/CSEjr0YF/1745570480_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/8BiXwlBk/CSEjr0YF/1745570480_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/8BiXwlBk/umWUQxSS/1745570480.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/8BiXwlBk/umWUQxSS/1745570480_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/8BiXwlBk/umWUQxSS/1745570480_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ GINZA SIX",
+      "model": {
+        "height": "157cm",
+        "gender": "WOMEN",
+        "nickname": "NC",
+        "image": {
+          "desktop": "https://images.wear2.jp/profile/8BiXwlBk/Na3Kzbud/1695188822_640.jpg",
+          "tablet": "https://images.wear2.jp/profile/8BiXwlBk/Na3Kzbud/1695188822_200.jpg"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "MEDIUM"
+        },
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "23.0cm"
+        }
+      ],
+      "productTotalText": "2 点",
+      "publishedAt": "2025-04-27"
+    },
+    {
+      "id": "25272851",
+      "productTotal": 2,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/xVidRjBq/nLhMJjis/1745545456.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/xVidRjBq/nLhMJjis/1745545456_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/xVidRjBq/nLhMJjis/1745545456_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/ynzdP3Fh/1745545457.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/ynzdP3Fh/1745545457_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/ynzdP3Fh/1745545457_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/Qp4wUWmW/1745545457.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/Qp4wUWmW/1745545457_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/Qp4wUWmW/1745545457_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/hx8F9pfA/1745545457.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/hx8F9pfA/1745545457_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/hx8F9pfA/1745545457_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ 横浜ビブレ",
+      "model": {
+        "height": "153cm",
+        "gender": "WOMEN",
+        "nickname": "Hinari",
+        "image": {
+          "desktop": "https://images.wear2.jp/profile/xVidRjBq/t3SZ76h0/1742144776_640.jpg",
+          "tablet": "https://images.wear2.jp/profile/xVidRjBq/t3SZ76h0/1742144776_200.jpg"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "22.5cm"
+        },
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "S"
+        }
+      ],
+      "productTotalText": "2 点",
+      "publishedAt": "2025-04-26"
+    },
+    {
+      "id": "25270700",
+      "productTotal": 2,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/8BiXwlBk/J5zj78VO/1745483136.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/8BiXwlBk/J5zj78VO/1745483136_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/8BiXwlBk/J5zj78VO/1745483136_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/8BiXwlBk/tCv9C3ZC/1745483137.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/8BiXwlBk/tCv9C3ZC/1745483137_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/8BiXwlBk/tCv9C3ZC/1745483137_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ GINZA SIX",
+      "model": {
+        "height": "157cm",
+        "gender": "WOMEN",
+        "nickname": "NC",
+        "image": {
+          "desktop": "https://images.wear2.jp/profile/8BiXwlBk/Na3Kzbud/1695188822_640.jpg",
+          "tablet": "https://images.wear2.jp/profile/8BiXwlBk/Na3Kzbud/1695188822_200.jpg"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "MEDIUM"
+        },
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "23.0cm"
+        }
+      ],
+      "productTotalText": "2 点",
+      "publishedAt": "2025-04-26"
+    },
+    {
+      "id": "25263791",
+      "productTotal": 3,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/8BiXkO7m/rDTTTGVx/1745461291.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/8BiXkO7m/rDTTTGVx/1745461291_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/8BiXkO7m/rDTTTGVx/1745461291_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/2BlwQHIp/1745461292.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/2BlwQHIp/1745461292_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/2BlwQHIp/1745461292_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/Txn5snH4/1745461292.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/Txn5snH4/1745461292_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/Txn5snH4/1745461292_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/OUyM3JIC/1745461292.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/OUyM3JIC/1745461292_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/OUyM3JIC/1745461292_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/15JQUIGT/1745461292.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/15JQUIGT/1745461292_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/15JQUIGT/1745461292_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/ezwyPrR9/1745461292.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/ezwyPrR9/1745461292_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/8BiXkO7m/ezwyPrR9/1745461292_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ 福岡",
+      "model": {
+        "height": "176cm",
+        "gender": "MEN",
+        "nickname": "oi",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "パンツ",
+          "categoryKey": "pants",
+          "size": "27"
+        },
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "SMALL"
+        },
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "27.0cm"
+        }
+      ],
+      "productTotalText": "3 点",
+      "publishedAt": "2025-04-25"
+    },
+    {
+      "id": "25252025",
+      "productTotal": 2,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/AAixkGGr/Rplrzpg9/1745217613.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/AAixkGGr/Rplrzpg9/1745217613_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/AAixkGGr/Rplrzpg9/1745217613_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/nqsMueCs/1745217614.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/nqsMueCs/1745217614_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/nqsMueCs/1745217614_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/1vutafC7/1745217614.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/1vutafC7/1745217614_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/1vutafC7/1745217614_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/tf8dy4wh/1745217614.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/tf8dy4wh/1745217614_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/tf8dy4wh/1745217614_320.jpg"
+        }
+      ],
+      "description": "アディダス ブランドコアストア 池袋",
+      "model": {
+        "height": "156cm",
+        "gender": "WOMEN",
+        "nickname": "N.K",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "23.0cm"
+        },
+        {
+          "categoryName": "ジャケット/アウター",
+          "categoryKey": "jacket-outerwear",
+          "size": "J/M"
+        }
+      ],
+      "productTotalText": "2 点",
+      "publishedAt": "2025-04-22"
+    },
+    {
+      "id": "25252014",
+      "productTotal": 5,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/AAixkGGr/jmAMjkR2/1745209067.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/AAixkGGr/jmAMjkR2/1745209067_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/AAixkGGr/jmAMjkR2/1745209067_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/eMUMYqVR/1745209068.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/eMUMYqVR/1745209068_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/eMUMYqVR/1745209068_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/YgGcC7L8/1745209068.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/YgGcC7L8/1745209068_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/YgGcC7L8/1745209068_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/xPOiX15b/1745209068.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/xPOiX15b/1745209068_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/xPOiX15b/1745209068_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/LppCD10z/1745209068.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/LppCD10z/1745209068_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/LppCD10z/1745209068_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/mww9WcGF/1745209068.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/mww9WcGF/1745209068_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/mww9WcGF/1745209068_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/2av4ajje/1745209068.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/2av4ajje/1745209068_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/2av4ajje/1745209068_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/hvpZZpuQ/1745209068.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/hvpZZpuQ/1745209068_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/AAixkGGr/hvpZZpuQ/1745209068_320.jpg"
+        }
+      ],
+      "description": "アディダス ブランドコアストア 池袋",
+      "model": {
+        "height": "156cm",
+        "gender": "WOMEN",
+        "nickname": "N.K",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "23.0cm"
+        },
+        {
+          "categoryName": "バッグ",
+          "categoryKey": "bag",
+          "size": "FREE"
+        },
+        {
+          "categoryName": "パンツ",
+          "categoryKey": "pants",
+          "size": "L"
+        },
+        {
+          "categoryName": "パンツ",
+          "categoryKey": "pants",
+          "size": "J/2XS"
+        },
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "MEDIUM"
+        }
+      ],
+      "productTotalText": "5 点",
+      "publishedAt": "2025-04-21"
+    },
+    {
+      "id": "25213557",
+      "productTotal": 3,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/xVidRjBq/QjeZzINv/1744356188.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/xVidRjBq/QjeZzINv/1744356188_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/xVidRjBq/QjeZzINv/1744356188_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/LcN6rzyV/1744356189.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/LcN6rzyV/1744356189_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/LcN6rzyV/1744356189_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/kC9WDN9x/1744356189.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/kC9WDN9x/1744356189_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/kC9WDN9x/1744356189_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/R1hF7t6E/1744356189.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/R1hF7t6E/1744356189_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/xVidRjBq/R1hF7t6E/1744356189_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ 横浜ビブレ",
+      "model": {
+        "height": "153cm",
+        "gender": "WOMEN",
+        "nickname": "Hinari",
+        "image": {
+          "desktop": "https://images.wear2.jp/profile/xVidRjBq/t3SZ76h0/1742144776_640.jpg",
+          "tablet": "https://images.wear2.jp/profile/xVidRjBq/t3SZ76h0/1742144776_200.jpg"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "パンツ",
+          "categoryKey": "pants",
+          "size": "X-SMALL"
+        },
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "X-SMALL"
+        },
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "22.5cm"
+        }
+      ],
+      "productTotalText": "3 点",
+      "publishedAt": "2025-04-13"
+    },
+    {
+      "id": "25221586",
+      "productTotal": 2,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/d2idl4po/Y95gFNBx/1744339460.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/d2idl4po/Y95gFNBx/1744339460_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/d2idl4po/Y95gFNBx/1744339460_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/d2idl4po/ExohGmIL/1744339461.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/d2idl4po/ExohGmIL/1744339461_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/d2idl4po/ExohGmIL/1744339461_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/d2idl4po/104lnCis/1744339461.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/d2idl4po/104lnCis/1744339461_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/d2idl4po/104lnCis/1744339461_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/d2idl4po/38FM8PdS/1744339461.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/d2idl4po/38FM8PdS/1744339461_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/d2idl4po/38FM8PdS/1744339461_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ 横浜ビブレ",
+      "model": {
+        "height": "175cm",
+        "gender": "MEN",
+        "nickname": "KF",
+        "image": {
+          "desktop": "https://images.wear2.jp/profile/d2idl4po/aUzYbGEn/1708970005_640.jpg",
+          "tablet": "https://images.wear2.jp/profile/d2idl4po/aUzYbGEn/1708970005_200.jpg"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "28.0cm"
+        },
+        {
+          "categoryName": "ジャケット/アウター",
+          "categoryKey": "jacket-outerwear",
+          "size": "X-LARGE"
+        }
+      ],
+      "productTotalText": "2 点",
+      "publishedAt": "2025-04-12"
+    },
+    {
+      "id": "25210125",
+      "productTotal": 3,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/GriO7yng/72EJceC9/1744163821.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/GriO7yng/72EJceC9/1744163821_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/GriO7yng/72EJceC9/1744163821_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/HAbtDkqR/1744163822.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/HAbtDkqR/1744163822_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/HAbtDkqR/1744163822_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/yey3yenz/1744163822.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/yey3yenz/1744163822_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/yey3yenz/1744163822_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/lYJ31zx0/1744163822.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/lYJ31zx0/1744163822_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/lYJ31zx0/1744163822_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/DNLo8WgX/1744163822.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/DNLo8WgX/1744163822_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/DNLo8WgX/1744163822_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/jpAPt4aU/1744163822.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/jpAPt4aU/1744163822_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/jpAPt4aU/1744163822_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ 福岡",
+      "model": {
+        "height": "160cm",
+        "gender": "WOMEN",
+        "nickname": "AI",
+        "image": {
+          "desktop": "https://images.wear2.jp/profile/GriO7yng/iYkCf54O/1740740764_640.jpg",
+          "tablet": "https://images.wear2.jp/profile/GriO7yng/iYkCf54O/1740740764_200.jpg"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "24.5cm"
+        },
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "MEDIUM"
+        },
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "XS"
+        }
+      ],
+      "productTotalText": "3 点",
+      "publishedAt": "2025-04-09"
+    },
+    {
+      "id": "25200859",
+      "productTotal": 3,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/zaibV3x5/09cWrDeu/1743393627.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/zaibV3x5/09cWrDeu/1743393627_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/zaibV3x5/09cWrDeu/1743393627_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/zaibV3x5/Am7nNIh7/1743393627.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/zaibV3x5/Am7nNIh7/1743393627_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/zaibV3x5/Am7nNIh7/1743393627_320.jpg"
+        }
+      ],
+      "description": "アディダス ブランドコアストア 鹿児島",
+      "model": {
+        "height": "159cm",
+        "gender": "WOMEN",
+        "nickname": "kisaki",
+        "image": {
+          "desktop": "https://images.wear2.jp/profile/zaibV3x5/MbYk8aPj/1743398562_640.jpg",
+          "tablet": "https://images.wear2.jp/profile/zaibV3x5/MbYk8aPj/1743398562_200.jpg"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "MEDIUM"
+        },
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "LARGE"
+        },
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "23.5cm"
+        }
+      ],
+      "productTotalText": "3 点",
+      "publishedAt": "2025-04-07"
+    },
+    {
+      "id": "25151408",
+      "productTotal": 2,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/oJiZ07gA/WnZDBt1C/1743154911.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/oJiZ07gA/WnZDBt1C/1743154911_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/oJiZ07gA/WnZDBt1C/1743154911_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/oJiZ07gA/DmvSadMj/1743154912.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/oJiZ07gA/DmvSadMj/1743154912_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/oJiZ07gA/DmvSadMj/1743154912_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ GINZA SIX",
+      "model": {
+        "height": "175cm",
+        "gender": "MEN",
+        "nickname": "FS",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "28.5cm"
+        },
+        {
+          "categoryName": "パンツ",
+          "categoryKey": "pants",
+          "size": "X-LARGE"
+        }
+      ],
+      "productTotalText": "2 点",
+      "publishedAt": "2025-03-30"
+    },
+    {
+      "id": "25155394",
+      "productTotal": 3,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/GriO7yng/gEL4HugR/1743138590.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/GriO7yng/gEL4HugR/1743138590_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/GriO7yng/gEL4HugR/1743138590_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/q0tFYCXv/1743138591.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/q0tFYCXv/1743138591_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/q0tFYCXv/1743138591_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/O6jIOOup/1743138591.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/O6jIOOup/1743138591_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/O6jIOOup/1743138591_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/90VmTRnH/1743138591.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/90VmTRnH/1743138591_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/90VmTRnH/1743138591_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/jvk3bQXZ/1743138591.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/jvk3bQXZ/1743138591_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/jvk3bQXZ/1743138591_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/4kCOBVI8/1743138591.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/4kCOBVI8/1743138591_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/4kCOBVI8/1743138591_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ 福岡",
+      "model": {
+        "height": "160cm",
+        "gender": "WOMEN",
+        "nickname": "AI",
+        "image": {
+          "desktop": "https://images.wear2.jp/profile/GriO7yng/iYkCf54O/1740740764_640.jpg",
+          "tablet": "https://images.wear2.jp/profile/GriO7yng/iYkCf54O/1740740764_200.jpg"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "24.5cm"
+        },
+        {
+          "categoryName": "ワンピース/ドレス",
+          "categoryKey": "onepiece",
+          "size": "X-SMALL"
+        },
+        {
+          "categoryName": "バッグ",
+          "categoryKey": "bag",
+          "size": "FREE"
+        }
+      ],
+      "productTotalText": "3 点",
+      "publishedAt": "2025-03-30"
+    },
+    {
+      "id": "25146700",
+      "productTotal": 2,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/oJiZ07gA/qxpnRKfT/1742879563.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/oJiZ07gA/qxpnRKfT/1742879563_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/oJiZ07gA/qxpnRKfT/1742879563_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/oJiZ07gA/DhiOgKr9/1742879564.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/oJiZ07gA/DhiOgKr9/1742879564_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/oJiZ07gA/DhiOgKr9/1742879564_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ GINZA SIX",
+      "model": {
+        "height": "175cm",
+        "gender": "MEN",
+        "nickname": "FS",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "28.5cm"
+        },
+        {
+          "categoryName": "パンツ",
+          "categoryKey": "pants",
+          "size": "XL"
+        }
+      ],
+      "productTotalText": "2 点",
+      "publishedAt": "2025-03-25"
+    },
+    {
+      "id": "25136790",
+      "productTotal": 2,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/nZinQzJl/zAyEqFFa/1742777473.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/nZinQzJl/zAyEqFFa/1742777473_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/nZinQzJl/zAyEqFFa/1742777473_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/nZinQzJl/RgtmXnjK/1742777474.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/nZinQzJl/RgtmXnjK/1742777474_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/nZinQzJl/RgtmXnjK/1742777474_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ ダイバーシティ東京 プラザ",
+      "model": {
+        "height": "153cm",
+        "gender": "WOMEN",
+        "nickname": "NR",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "24.0cm"
+        },
+        {
+          "categoryName": "ジャケット/アウター",
+          "categoryKey": "jacket-outerwear",
+          "size": "MEDIUM"
+        }
+      ],
+      "productTotalText": "2 点",
+      "publishedAt": "2025-03-24"
+    },
+    {
+      "id": "25112194",
+      "productTotal": 2,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/wni4LXp0/CJ7Tinfw/1741712878.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/wni4LXp0/CJ7Tinfw/1741712878_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/wni4LXp0/CJ7Tinfw/1741712878_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/wni4LXp0/voexMQ1T/1741712885.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/wni4LXp0/voexMQ1T/1741712885_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/wni4LXp0/voexMQ1T/1741712885_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ ダイバーシティ東京 プラザ",
+      "model": {
+        "height": "168cm",
+        "gender": "WOMEN",
+        "nickname": "NN",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "ジャケット/アウター",
+          "categoryKey": "jacket-outerwear",
+          "size": "X-LARGE"
+        },
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "22.5cm"
+        }
+      ],
+      "productTotalText": "2 点",
+      "publishedAt": "2025-03-12"
+    },
+    {
+      "id": "25106193",
+      "productTotal": 3,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/oJiZxqxb/uC6GNkNA/1741678055.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/oJiZxqxb/uC6GNkNA/1741678055_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/oJiZxqxb/uC6GNkNA/1741678055_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/CjBOf5Pp/1741678064.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/CjBOf5Pp/1741678064_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/CjBOf5Pp/1741678064_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/KawRxLvH/1741678064.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/KawRxLvH/1741678064_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/KawRxLvH/1741678064_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/CjzKfQL3/1741678064.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/CjzKfQL3/1741678064_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/CjzKfQL3/1741678064_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/lvSnD6Hn/1741678064.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/lvSnD6Hn/1741678064_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/lvSnD6Hn/1741678064_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/sNZADhOY/1741678064.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/sNZADhOY/1741678064_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/oJiZxqxb/sNZADhOY/1741678064_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ 福岡",
+      "model": {
+        "height": "159cm",
+        "gender": "WOMEN",
+        "nickname": "RH",
+        "image": {
+          "desktop": "https://images.wear2.jp/profile/oJiZxqxb/I2yxOWRt/1722420921_640.jpg",
+          "tablet": "https://images.wear2.jp/profile/oJiZxqxb/I2yxOWRt/1722420921_200.jpg"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "23.5cm"
+        },
+        {
+          "categoryName": "バッグ",
+          "categoryKey": "bag",
+          "size": "FREE"
+        },
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "S"
+        }
+      ],
+      "productTotalText": "3 点",
+      "publishedAt": "2025-03-11"
+    },
+    {
+      "id": "25091677",
+      "productTotal": 3,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/BeiZPebq/iPCJsx9m/1740981693.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/BeiZPebq/iPCJsx9m/1740981693_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/BeiZPebq/iPCJsx9m/1740981693_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/BeiZPebq/czSomlyR/1740981694.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/BeiZPebq/czSomlyR/1740981694_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/BeiZPebq/czSomlyR/1740981694_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/BeiZPebq/rOSQ1oij/1740981694.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/BeiZPebq/rOSQ1oij/1740981694_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/BeiZPebq/rOSQ1oij/1740981694_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/BeiZPebq/ixCBPCKf/1740981694.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/BeiZPebq/ixCBPCKf/1740981694_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/BeiZPebq/ixCBPCKf/1740981694_320.jpg"
+        }
+      ],
+      "description": "アディダス ブランドコアストア 銀座",
+      "model": {
+        "height": "153cm",
+        "gender": "WOMEN",
+        "nickname": "SA",
+        "image": {
+          "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+          "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "J/M"
+        },
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "22.5cm"
+        },
+        {
+          "categoryName": "パンツ",
+          "categoryKey": "pants",
+          "size": "26inch"
+        }
+      ],
+      "productTotalText": "3 点",
+      "publishedAt": "2025-03-04"
+    },
+    {
+      "id": "25074504",
+      "productTotal": 3,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/GriO7yng/Q6LAGFpn/1740466559.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/GriO7yng/Q6LAGFpn/1740466559_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/GriO7yng/Q6LAGFpn/1740466559_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/7UUlFyTZ/1740466560.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/7UUlFyTZ/1740466560_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/7UUlFyTZ/1740466560_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/Vi43jxhZ/1740466560.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/Vi43jxhZ/1740466560_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/Vi43jxhZ/1740466560_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/9rAfAYO6/1740466560.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/9rAfAYO6/1740466560_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/9rAfAYO6/1740466560_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/tBfgTHC5/1740466560.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/tBfgTHC5/1740466560_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/tBfgTHC5/1740466560_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/vrXjEkO3/1740466560.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/vrXjEkO3/1740466560_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/GriO7yng/vrXjEkO3/1740466560_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ 福岡",
+      "model": {
+        "height": "160cm",
+        "gender": "WOMEN",
+        "nickname": "AI",
+        "image": {
+          "desktop": "https://images.wear2.jp/profile/GriO7yng/iYkCf54O/1740740764_640.jpg",
+          "tablet": "https://images.wear2.jp/profile/GriO7yng/iYkCf54O/1740740764_200.jpg"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "24.5cm"
+        },
+        {
+          "categoryName": "バッグ",
+          "categoryKey": "bag",
+          "size": "FREE"
+        },
+        {
+          "categoryName": "トップス",
+          "categoryKey": "tops",
+          "size": "X-SMALL"
+        }
+      ],
+      "productTotalText": "3 点",
+      "publishedAt": "2025-02-26"
+    },
+    {
+      "id": "25022558",
+      "productTotal": 3,
+      "images": [
+        {
+          "desktop": "https://images.wear2.jp/coordinate/BeiZ7kAL/m3OERr5Z/1739951959.jpg",
+          "tablet": "https://images.wear2.jp/coordinate/BeiZ7kAL/m3OERr5Z/1739951959_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate/BeiZ7kAL/m3OERr5Z/1739951959_320.jpg"
+        },
+        {
+          "desktop": "https://images.wear2.jp/coordinate_sub_image/BeiZ7kAL/BlaVrnK4/1739951960.jpg",
+          "tablet": "https://images.wear2.jp/coordinate_sub_image/BeiZ7kAL/BlaVrnK4/1739951960_500.jpg",
+          "mobile": "https://images.wear2.jp/coordinate_sub_image/BeiZ7kAL/BlaVrnK4/1739951960_320.jpg"
+        }
+      ],
+      "description": "アディダス オリジナルスショップ ラゾーナ川崎プラザ",
+      "model": {
+        "height": "172cm",
+        "gender": "MEN",
+        "nickname": "Kuma Yuya",
+        "image": {
+          "desktop": "https://images.wear2.jp/profile/BeiZ7kAL/5Gmy1Pv4/1694886204_640.jpg",
+          "tablet": "https://images.wear2.jp/profile/BeiZ7kAL/5Gmy1Pv4/1694886204_200.jpg"
+        }
+      },
+      "productDimensions": [
+        {
+          "categoryName": "シューズ",
+          "categoryKey": "shoes",
+          "size": "26.5cm"
+        },
+        {
+          "categoryName": "ジャケット/アウター",
+          "categoryKey": "jacket-outerwear",
+          "size": "XX-LARGE"
+        },
+        {
+          "categoryName": "パンツ",
+          "categoryKey": "pants",
+          "size": "33"
+        }
+      ],
+      "productTotalText": "3 点",
+      "publishedAt": "2025-02-20"
+    }
+  ],
+  "total": 385,
+  "filters": [
+    {
+      "title": "性別",
+      "key": "gender",
+      "type": "multiple-selection",
+      "options": [
+        {
+          "label": "メンズ",
+          "value": "1",
+          "isSelected": false
+        },
+        {
+          "label": "レディース",
+          "value": "2",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "title": "身長",
+      "key": "height",
+      "type": "multiple-selection",
+      "options": [
+        {
+          "label": "149cm 以下",
+          "value": "0-149",
+          "isSelected": false
+        },
+        {
+          "label": "150cm ~ 154cm",
+          "value": "150-154",
+          "isSelected": false
+        },
+        {
+          "label": "155cm ~ 159cm",
+          "value": "155-159",
+          "isSelected": false
+        },
+        {
+          "label": "160cm ~ 164cm",
+          "value": "160-164",
+          "isSelected": false
+        },
+        {
+          "label": "165cm ~ 169cm",
+          "value": "165-169",
+          "isSelected": false
+        },
+        {
+          "label": "170cm ~ 174cm",
+          "value": "170-174",
+          "isSelected": false
+        },
+        {
+          "label": "175cm ~ 179cm",
+          "value": "175-179",
+          "isSelected": false
+        },
+        {
+          "label": "180cm 以上",
+          "value": "180-999",
+          "isSelected": false
+        }
+      ]
+    }
+  ]
+}

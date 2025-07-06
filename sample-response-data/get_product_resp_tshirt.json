@@ -1,0 +1,505 @@
+{
+  "id": "KB5435",
+  "product_type": "inline",
+  "base_model_number": "VA035",
+  "model_number": "VA035",
+  "name": "襟付きゴーリートップ",
+  "meta_data": {
+    "canonical": "//www.adidas.jp/%E8%A5%9F%E4%BB%98%E3%81%8D%E3%82%B4%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%88%E3%83%83%E3%83%97/KB5435.html",
+    "description": "襟付きゴーリートップのお買い求めはアディダス公式オンラインショップで。[adidas公式通販】なら30日以内返品可能（一部商品を除く)。会員登録で10% OFFクーポンプレゼント。",
+    "keywords": "襟付きゴーリートップ",
+    "page_title": "アディダス 襟付きゴーリートップ - ホワイト | アディダス ジャパン",
+    "site_name": "adidas ジャパン"
+  },
+  "view_list": [
+    {
+      "type": "model",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/c59fa20cd36c43ea8439218ff655bb41_9366/KB5435_21_model.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "On Model",
+        "view": "Standard View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "1",
+        "subjects": [
+          {
+            "modelHeight": "180 cm",
+            "modelChest": "94 cm",
+            "modelWaist": "70 cm",
+            "productSize": "J/XL"
+          }
+        ]
+      },
+      "file_revision_date": "2025-03-10T21:27:52Z"
+    },
+    {
+      "type": "model",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/831c5f6c75764c7fa81bdc8254bf3130_9366/KB5435_23_hover_model.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp",
+          "plp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "On Model",
+        "view": "Back View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "2",
+        "subjects": [
+          {
+            "modelHeight": "180 cm",
+            "modelChest": "94 cm",
+            "modelWaist": "70 cm",
+            "productSize": "J/XL"
+          }
+        ]
+      },
+      "file_revision_date": "2025-03-10T21:28:22Z"
+    },
+    {
+      "type": "model",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/1ec9454f2e16455c8a816a93a09226d0_9366/KB5435_25_model.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "On Model",
+        "view": "Walking View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "3",
+        "subjects": [
+          {
+            "modelHeight": "180 cm",
+            "modelChest": "94 cm",
+            "modelWaist": "70 cm",
+            "productSize": "J/XL"
+          }
+        ]
+      },
+      "file_revision_date": "2025-03-10T21:31:25Z"
+    },
+    {
+      "type": "other",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/c9bbc76e829c48a0a4be099064fd84ec_9366/KB5435_01_laydown.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "3D Torso",
+        "view": "Front Center View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "4",
+        "subjects": [
+          {
+            "productSize": "J/XL"
+          }
+        ]
+      },
+      "file_revision_date": "2025-02-25T21:44:49Z"
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b3e02be56e6d46ce9f654a49691eaa64_9366/KB5435_41_detail.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "On Model",
+        "view": "Detail View 1",
+        "usageTerms": "eCommerce",
+        "sortOrder": "5",
+        "subjects": [
+          {
+            "modelHeight": "180 cm",
+            "modelChest": "94 cm",
+            "modelWaist": "70 cm",
+            "productSize": "J/XL"
+          }
+        ]
+      },
+      "file_revision_date": "2025-03-10T21:29:40Z"
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/bc81a42020c84443a493d9c3f87cbb7a_9366/KB5435_42_detail.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "On Model",
+        "view": "Detail View 2",
+        "usageTerms": "eCommerce",
+        "sortOrder": "6",
+        "subjects": [
+          {
+            "modelHeight": "180 cm",
+            "modelChest": "94 cm",
+            "modelWaist": "70 cm",
+            "productSize": "J/XL"
+          }
+        ]
+      },
+      "file_revision_date": "2025-03-10T21:30:55Z"
+    }
+  ],
+  "product_listing_assets": [
+    {
+      "type": "model",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/c59fa20cd36c43ea8439218ff655bb41_9366/KB5435_000_plp_model.jpg",
+      "metadata": {
+        "asset_usage": [
+          "plp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "On Model",
+        "view": "Standard View",
+        "usage_terms": "eCommerce",
+        "sort_order": "0",
+        "subjects": [
+          {
+            "model_height": "180 cm",
+            "model_chest": "94 cm",
+            "model_waist": "70 cm",
+            "product_size": "J/XL"
+          }
+        ]
+      },
+      "file_revision_date": "2025-03-10T21:27:52Z"
+    },
+    {
+      "type": "model",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/831c5f6c75764c7fa81bdc8254bf3130_9366/KB5435_23_hover_model.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp",
+          "plp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "On Model",
+        "view": "Back View",
+        "usage_terms": "eCommerce",
+        "sort_order": "2",
+        "subjects": [
+          {
+            "model_height": "180 cm",
+            "model_chest": "94 cm",
+            "model_waist": "70 cm",
+            "product_size": "J/XL"
+          }
+        ]
+      },
+      "file_revision_date": "2025-03-10T21:28:22Z"
+    }
+  ],
+  "attribute_list": {
+    "sale": false,
+    "brand": "オリジナルス",
+    "color": "Cream White",
+    "colors": {
+      "color1code": "A0TP"
+    },
+    "gender": "M",
+    "outlet": false,
+    "sport": [
+      "ライフスタイル"
+    ],
+    "category": "ウェア・服",
+    "size_page": "60",
+    "sport_ids": [
+      "Lifestyle"
+    ],
+    "functions": [
+      "半袖"
+    ],
+    "category_id": [
+      "Clothing"
+    ],
+    "productfit": [
+      "オーバーサイズ"
+    ],
+    "weight_unit": "g",
+    "search_color": "ホワイト",
+    "base_material": [
+      "その他"
+    ],
+    "productType": [
+      "Tシャツ"
+    ],
+    "midsole_offset": "0.000",
+    "product_fit_ids": [
+      "Oversized"
+    ],
+    "personalizable": false,
+    "toe_stack_height": "0.00",
+    "base_material_ids": [
+      "Others"
+    ],
+    "heel_stack_height": "0.00",
+    "isCnCRestricted": false,
+    "key_category_code": "00009",
+    "gift_wrapping_flag": true,
+    "on_model_measurement": {
+      "chest": "94 cm",
+      "waist": "70 cm",
+      "model_height": "180 cm",
+      "product_size": "J/XL"
+    },
+    "mandatory_personalization": false,
+    "sustainability_ethics_compliance_ids": [
+      "All Sustainable"
+    ],
+    "customizable": false,
+    "badge_style": "new",
+    "badge_text": "NEW",
+    "search_color_raw": "ホワイト",
+    "is_orderable": true,
+    "isWaitingRoomProduct": false,
+    "isInPreview": false,
+    "specialLaunch": false,
+    "special_launch_type": "NONE",
+    "sizeTypes": {},
+    "is_flash": false,
+    "is_made_to_be_remade": false,
+    "coming_soon_signup": false,
+    "preview_to": "2025-06-19T01:00:00.000Z",
+    "product_sizing_category": "top",
+    "size_chart_id": "size-chart-size-m_tops",
+    "size_chart_link": "/on/demandware.store/Sites-adidas-JP-Site/ja_JP/Page-Include?cid=size-chart-size-m_tops"
+  },
+  "breadcrumb_list": [
+    {
+      "text": "メンズ",
+      "link": "/メンズ"
+    },
+    {
+      "text": "ウェア・服",
+      "link": "/メンズ-ウェア・服"
+    }
+  ],
+  "callouts": {
+    "callout_top_stack": [
+      {
+        "id": "10-pdp-normal-product"
+      }
+    ]
+  },
+  "pricing_information": {
+    "currentPrice": 7370,
+    "standard_price": 7370,
+    "standard_price_no_vat": 6700
+  },
+  "price_information": [
+    {
+      "value": 7370,
+      "value_no_vat": 6700,
+      "type": "original"
+    }
+  ],
+  "tax_class_id": "FullTax",
+  "product_description": {
+    "title": "襟付きゴーリートップ",
+    "text": "この襟付きTシャツは、80年代のゴールキーパージャージーからインスピレーションを得てデザインされたもの。肌触りの良い滑らかな生地で仕立てたこのシャツは、一日中快適な着心地が続くカジュアルな一着。総柄のストライプの生地で、袖にスリーストライプスを配し、胸にアディダスのブランディングをあしらいクラシックな雰囲気に仕上げている。",
+    "subtitle": "クラシックなゴールキーパージャージーが着想源の襟付きシャツ。",
+    "usps": [
+      "ルーズフィット",
+      "リブ仕上げの襟の間に三角形のリブガセット",
+      "ポリエステル100%"
+    ],
+    "wash_care_instructions": {
+      "care_instructions": [
+        {
+          "code": "B1",
+          "description": "漂白剤を使用しないでください"
+        },
+        {
+          "code": "C1",
+          "description": "乾燥機を使用しないでください"
+        },
+        {
+          "code": "E1",
+          "description": "ドライクリーニングできない製品です"
+        },
+        {
+          "code": "D3",
+          "description": "中温（約150℃）でアイロンをかけて"
+        },
+        {
+          "code": "A5",
+          "description": "洗濯機でぬるま湯で洗ってください"
+        }
+      ],
+      "extra_care_instructions": [
+        "装飾部分のアイロンはお避け下さい。",
+        "濃色の場合は淡色のものと分けてお洗い下さい。",
+        "濡れた状態での放置はお避け下さい。",
+        "同色の製品と一緒の洗濯をお勧めします。",
+        "プリント部分のアイロンはお避け下さい。",
+        "洗濯時は裏返しネットに入れてお洗い下さい"
+      ]
+    },
+    "description_assets": {
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/1ec9454f2e16455c8a816a93a09226d0_9366/KB5435.jpg",
+      "video_url": null,
+      "poster_url": null
+    }
+  },
+  "recommendationsEnabled": true,
+  "product_link_list": [
+    {
+      "type": "color-variation",
+      "productId": "JX8980",
+      "name": "襟付きゴーリートップ",
+      "url": "/%E8%A5%9F%E4%BB%98%E3%81%8D%E3%82%B4%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%88%E3%83%83%E3%83%97/JX8980.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/902c296583fa484eb2686e719c51ddba_9366/JX8980_000_plp_model.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/09592e1580cf4aaab51005c77a491838_9366/JX8980_23_hover_model.jpg",
+      "pricing_information": {
+        "standard_price": 7370
+      },
+      "price_information": [
+        {
+          "value": 7370,
+          "value_no_vat": 6700,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラック",
+      "default_color": "Black",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JX8981",
+      "name": "襟付きゴーリートップ",
+      "url": "/%E8%A5%9F%E4%BB%98%E3%81%8D%E3%82%B4%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%88%E3%83%83%E3%83%97/JX8981.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/fa5c995884f1436e83da3790e61e72f8_9366/JX8981_000_plp_model.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/812b32d4e8104fc591e02340016df735_9366/JX8981_23_hover_model.jpg",
+      "pricing_information": {
+        "standard_price": 7370
+      },
+      "price_information": [
+        {
+          "value": 7370,
+          "value_no_vat": 6700,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブルー",
+      "default_color": "Crew Navy",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JX8982",
+      "name": "襟付きゴーリートップ",
+      "url": "/%E8%A5%9F%E4%BB%98%E3%81%8D%E3%82%B4%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%88%E3%83%83%E3%83%97/JX8982.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/0dbca96af0f8418f857f4e767215b217_9366/JX8982_000_plp_model.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/f48de33d1420439a811dd0b6fe438148_9366/JX8982_23_hover_model.jpg",
+      "pricing_information": {
+        "standard_price": 7370
+      },
+      "price_information": [
+        {
+          "value": 7370,
+          "value_no_vat": 6700,
+          "type": "original"
+        }
+      ],
+      "search_color": "ピンク",
+      "default_color": "Clear Pink",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "complete-the-look",
+      "productId": "IH7830",
+      "name": "フォーラム ロー CL / Forum Low CL",
+      "url": "/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A9%E3%83%A0-%E3%83%AD%E3%83%BC-cl-forum-low-cl/IH7830.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9efae4b5ffea4358a156b73db0c88f27_9366/CL_-_Forum_Low_CL_IH7830_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9efae4b5ffea4358a156b73db0c88f27_9366/CL_-_Forum_Low_CL_IH7830_01_standard.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9efae4b5ffea4358a156b73db0c88f27_faec/CL_-_Forum_Low_CL_IH7830_db01_standard.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9efae4b5ffea4358a156b73db0c88f27_faec/CL_-_Forum_Low_CL_IH7830_db01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 12100
+      },
+      "price_information": [
+        {
+          "value": 12100,
+          "value_no_vat": 11000,
+          "type": "original"
+        }
+      ],
+      "badge_style": "new",
+      "badge_text": "NEW",
+      "search_color": "ホワイト",
+      "default_color": "Core White / Core Black / Core White",
+      "source": "CLOUDINARY"
+    }
+  ],
+  "product_certificates": {
+    "legalCountryofOrigin": "Vietnam"
+  },
+  "variation_list": [
+    {
+      "sku": "KB5435_380",
+      "size": "J/2XS"
+    },
+    {
+      "sku": "KB5435_390",
+      "size": "J/XS"
+    },
+    {
+      "sku": "KB5435_395",
+      "size": "J/S"
+    },
+    {
+      "sku": "KB5435_405",
+      "size": "J/M"
+    },
+    {
+      "sku": "KB5435_410",
+      "size": "J/L"
+    },
+    {
+      "sku": "KB5435_415",
+      "size": "J/XL"
+    },
+    {
+      "sku": "KB5435_420",
+      "size": "J/2XL"
+    },
+    {
+      "sku": "KB5435_425",
+      "size": "J/3XL"
+    },
+    {
+      "sku": "KB5435_430",
+      "size": "J/4XL"
+    },
+    {
+      "sku": "KB5435_435",
+      "size": "J/5XL"
+    }
+  ],
+  "links": {
+    "self": {
+      "href": "/api/products/KB5435"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+TENTATIVE PLAN FOR CRAWLER
+
+1. GET the base url
+2. Check if its a 'product' page (presence of 'product-grid')
+3. If not, Extract urls from there
+4. Visit those URLS
+
+5. If product page:
+    - extract the productId from the url
+    - Get the
+
+
+<script data-mf-id="lookbook-microfrontend" data-mf-role="data" type="application/json" data-mf-version="ee60cf1a3d11fb718f064d79558cac3e597d71a6">
+        {
+            Json Data
+        }
+</script>

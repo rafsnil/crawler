@@ -1,0 +1,1700 @@
+{
+  "id": "B75806",
+  "product_type": "inline",
+  "base_model_number": "BSZ08",
+  "model_number": "BSZ08",
+  "name": "サンバ OG / Samba OG",
+  "meta_data": {
+    "canonical": "//www.adidas.jp/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/B75806.html",
+    "description": "サンバ OG / Samba OGのお買い求めはアディダス公式オンラインショップで。[adidas公式通販】なら30日以内返品可能（一部商品を除く)。会員登録で10% OFFクーポンプレゼント。",
+    "keywords": "サンバ OG / Samba OG",
+    "page_title": "アディダス サンバ OG / Samba OG - ホワイト | アディダス ジャパン",
+    "site_name": "adidas ジャパン"
+  },
+  "view_list": [ // Image Url,
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3bbecbdf584e40398446a8bf0117cf62_9366/OG_-_Samba_OG_B75806_01_00_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Standard",
+        "view": "Side Lateral Center View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "1",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:18:56Z"
+    },
+    {
+      "type": "videoasset",
+      "image_url": "https://assets.adidas.com/videos/w_600,f_auto,q_auto/4300d7b9187942e79a82a8ab010672d5_d98c/OG_-_Samba_OG_B75806_video.jpg",
+      "video_url": "https://assets.adidas.com/videos/t_videomain/4300d7b9187942e79a82a8ab010672d5_d98c/OG_-_Samba_OG_B75806_video.mp4",
+      "source": "CLOUDINARY",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Video",
+        "imageStyle": "On Model",
+        "view": "None",
+        "usageTerms": "eCommerce",
+        "sortOrder": "13",
+        "subjects": []
+      },
+      "file_revision_date": "2024-05-23T14:30:55Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/8c4158c4c39a4ab09b8ba8c000c96fd0_9366/OG_-_Samba_OG_B75806_01_01_hover_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp",
+          "plp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "On Model",
+        "view": "Front View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "2",
+        "subjects": []
+      },
+      "file_revision_date": "2024-05-24T09:39:40Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/ec595635a2994adea094a8bf0117ef1a_9366/OG_-_Samba_OG_B75806_02_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Standard",
+        "view": "Top Portrait View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "3",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:11Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/97cd0902ae2e402b895aa8bf0117f98f_9366/OG_-_Samba_OG_B75806_03_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Standard",
+        "view": "Bottom View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "4",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:14Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b067d21288bc43ec8298a8bf01180400_9366/OG_-_Samba_OG_B75806_04_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Standard",
+        "view": "Front Lateral Top View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "5",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:27Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3a8d5f9cb7444bd195f1a8bf01180e68_9366/OG_-_Samba_OG_B75806_05_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Standard",
+        "view": "Back Lateral Top View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "6",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:30Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/07567ea7d2bb425b8651a8bf0117e4f1_9366/OG_-_Samba_OG_B75806_06_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Standard",
+        "view": "Side Medial Center View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "7",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:00Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b19389122c51434eb5bea8bf0117da35_9366/OG_-_Samba_OG_B75806_07_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Standard",
+        "view": "Side Lateral Center Open View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "8",
+        "subjects": []
+      },
+      "file_revision_date": "2018-04-11T16:59:58Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/f9ce5733049f4ca8a93aa8bf011858bd_9366/OG_-_Samba_OG_B75806_09_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Standard",
+        "view": "Mirrored Pair View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "9",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:20:11Z"
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/671c62b81c3448e980aca8bf01181a93_9366/OG_-_Samba_OG_B75806_41_detail.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Standard",
+        "view": "Detail View 1",
+        "usageTerms": "eCommerce",
+        "sortOrder": "10",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:53Z"
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/6cea1ecd4fee4337ab5da8bf011823ca_9366/OG_-_Samba_OG_B75806_42_detail.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Standard",
+        "view": "Detail View 2",
+        "usageTerms": "eCommerce",
+        "sortOrder": "11",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:20:08Z"
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/0c94e4fecb7a4088b15fa8bf01183214_9366/OG_-_Samba_OG_B75806_43_detail.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Standard",
+        "view": "Detail View 3",
+        "usageTerms": "eCommerce",
+        "sortOrder": "12",
+        "subjects": []
+      },
+      "file_revision_date": "2018-04-11T17:00:31Z"
+    },
+    {
+      "type": "other",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/1d9a02f0be704fafbe3d6b8158afb9f6_9366/OG_-_Samba_OG_B75806_HM52.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "imageStyle": "Marketing",
+        "view": "HeroMrktng View 2",
+        "usageTerms": "eCommerceMarketing",
+        "sortOrder": "14",
+        "subjects": []
+      },
+      "file_revision_date": "2023-08-31T15:25:48Z"
+    }
+  ],
+  "dynamic_background_assets": [
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3bbecbdf584e40398446a8bf0117cf62_faec/OG_-_Samba_OG_B75806_db01_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Side Lateral Center View",
+        "usage_terms": "eCommerce",
+        "sort_order": "1",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:18:56Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/8c4158c4c39a4ab09b8ba8c000c96fd0_faec/OG_-_Samba_OG_B75806_db010_hover_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp",
+          "plp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "On Model",
+        "view": "Front View",
+        "usage_terms": "eCommerce",
+        "sort_order": "2",
+        "subjects": []
+      },
+      "file_revision_date": "2024-05-24T09:39:40Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/ec595635a2994adea094a8bf0117ef1a_faec/OG_-_Samba_OG_B75806_db02_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Top Portrait View",
+        "usage_terms": "eCommerce",
+        "sort_order": "3",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:11Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/97cd0902ae2e402b895aa8bf0117f98f_faec/OG_-_Samba_OG_B75806_db03_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Bottom View",
+        "usage_terms": "eCommerce",
+        "sort_order": "4",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:14Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b067d21288bc43ec8298a8bf01180400_faec/OG_-_Samba_OG_B75806_db04_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Front Lateral Top View",
+        "usage_terms": "eCommerce",
+        "sort_order": "5",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:27Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3a8d5f9cb7444bd195f1a8bf01180e68_faec/OG_-_Samba_OG_B75806_db05_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Back Lateral Top View",
+        "usage_terms": "eCommerce",
+        "sort_order": "6",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:30Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/07567ea7d2bb425b8651a8bf0117e4f1_faec/OG_-_Samba_OG_B75806_db06_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Side Medial Center View",
+        "usage_terms": "eCommerce",
+        "sort_order": "7",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:00Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b19389122c51434eb5bea8bf0117da35_faec/OG_-_Samba_OG_B75806_db07_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Side Lateral Center Open View",
+        "usage_terms": "eCommerce",
+        "sort_order": "8",
+        "subjects": []
+      },
+      "file_revision_date": "2018-04-11T16:59:58Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/f9ce5733049f4ca8a93aa8bf011858bd_faec/OG_-_Samba_OG_B75806_db09_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Mirrored Pair View",
+        "usage_terms": "eCommerce",
+        "sort_order": "9",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:20:11Z"
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/671c62b81c3448e980aca8bf01181a93_faec/OG_-_Samba_OG_B75806_db41_detail.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Detail View 1",
+        "usage_terms": "eCommerce",
+        "sort_order": "10",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:53Z"
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/6cea1ecd4fee4337ab5da8bf011823ca_faec/OG_-_Samba_OG_B75806_db42_detail.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Detail View 2",
+        "usage_terms": "eCommerce",
+        "sort_order": "11",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:20:08Z"
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/0c94e4fecb7a4088b15fa8bf01183214_faec/OG_-_Samba_OG_B75806_db43_detail.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Detail View 3",
+        "usage_terms": "eCommerce",
+        "sort_order": "12",
+        "subjects": []
+      },
+      "file_revision_date": "2018-04-11T17:00:31Z"
+    }
+  ],
+  "confirmed_dynamic_background_assets": [
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3bbecbdf584e40398446a8bf0117cf62_faec/OG_-_Samba_OG_B75806_db01_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Side Lateral Center View",
+        "usage_terms": "eCommerce",
+        "sort_order": "1",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:18:56Z"
+    },
+    {
+      "type": "other",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/ec595635a2994adea094a8bf0117ef1a_faec/OG_-_Samba_OG_B75806_db02_standard_hover.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp",
+          "plp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Top Portrait View",
+        "usage_terms": "eCommerce",
+        "sort_order": "2",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:11Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/97cd0902ae2e402b895aa8bf0117f98f_faec/OG_-_Samba_OG_B75806_db03_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Bottom View",
+        "usage_terms": "eCommerce",
+        "sort_order": "3",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:14Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b067d21288bc43ec8298a8bf01180400_faec/OG_-_Samba_OG_B75806_db04_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Front Lateral Top View",
+        "usage_terms": "eCommerce",
+        "sort_order": "4",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:27Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3a8d5f9cb7444bd195f1a8bf01180e68_faec/OG_-_Samba_OG_B75806_db05_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Back Lateral Top View",
+        "usage_terms": "eCommerce",
+        "sort_order": "5",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:30Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/07567ea7d2bb425b8651a8bf0117e4f1_faec/OG_-_Samba_OG_B75806_db06_standard.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Side Medial Center View",
+        "usage_terms": "eCommerce",
+        "sort_order": "6",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:00Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b19389122c51434eb5bea8bf0117da35_faec/OG_-_Samba_OG_B75806_db07_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Side Lateral Center Open View",
+        "usage_terms": "eCommerce",
+        "sort_order": "7",
+        "subjects": []
+      },
+      "file_revision_date": "2018-04-11T16:59:58Z"
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/671c62b81c3448e980aca8bf01181a93_faec/OG_-_Samba_OG_B75806_db41_detail.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Detail View 1",
+        "usage_terms": "eCommerce",
+        "sort_order": "8",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:19:53Z"
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/6cea1ecd4fee4337ab5da8bf011823ca_faec/OG_-_Samba_OG_B75806_db42_detail.tiff.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Detail View 2",
+        "usage_terms": "eCommerce",
+        "sort_order": "9",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:20:08Z"
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/0c94e4fecb7a4088b15fa8bf01183214_faec/OG_-_Samba_OG_B75806_db43_detail.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Detail View 3",
+        "usage_terms": "eCommerce",
+        "sort_order": "10",
+        "subjects": []
+      },
+      "file_revision_date": "2018-04-11T17:00:31Z"
+    }
+  ],
+  "product_listing_assets": [
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9b983d5bc09a4d4aba39a8bf011869ba_9366/OG_-_Samba_OG_B75806_00_plp_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "plp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "Standard",
+        "view": "Side Lateral View",
+        "usage_terms": "eCommerce",
+        "sort_order": "0",
+        "subjects": []
+      },
+      "file_revision_date": "2024-06-24T07:20:13Z"
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/8c4158c4c39a4ab09b8ba8c000c96fd0_9366/OG_-_Samba_OG_B75806_01_01_hover_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp",
+          "plp"
+        ],
+        "asset_category": "Photography",
+        "image_style": "On Model",
+        "view": "Front View",
+        "usage_terms": "eCommerce",
+        "sort_order": "2",
+        "subjects": []
+      },
+      "file_revision_date": "2024-05-24T09:39:40Z"
+    }
+  ],
+  // REQUIRED
+  "attribute_list": {
+    "sale": false,
+    "brand": "オリジナルス",
+    "color": "Cloud White / Core Black / Clear Granite",
+    "colors": {
+      "color1code": "01F7",
+      "color2code": "A0QM",
+      "color3code": "067A"
+    },
+    "gender": "U",
+    "outlet": false,
+    "sport": [
+      "ライフスタイル"
+    ],
+    "closure": [
+      "レース"
+    ],
+    "surface": [
+      "ストリート"
+    ],
+    "category": "シューズ・靴",
+    "size_page": "S1",
+    "sport_ids": [
+      "Lifestyle"
+    ],
+    "sportSub": [
+      "サンバ",
+      "MINI ME（ミニミー）",
+      "Tトゥシューズ"
+    ],
+    "category_id": [
+      "Shoes"
+    ],
+    "closure_ids": [
+      "Laces"
+    ],
+    "productfit": [
+      "レギュラーフィット"
+    ],
+    "surface_ids": [
+      "Street"
+    ],
+    "weight_unit": "g",
+    "collection": [
+      "the_original"
+    ],
+    "search_color": "ホワイト",
+    "base_material": [
+      "レザーアッパー"
+    ],
+    "productType": [
+      "スニーカー"
+    ],
+    "midsole_offset": "0.000",
+    "product_fit_ids": [
+      "Regular"
+    ],
+    "personalizable": false,
+    "toe_stack_height": "0.00",
+    "base_material_ids": [
+      "Leather Upper"
+    ],
+    "heel_stack_height": "0.00",
+    "isCnCRestricted": false,
+    "key_category_code": "00142",
+    "gift_wrapping_flag": false,
+    "productLineStyle": [
+      "Samba 2024"
+    ],
+    "genericProductType": [
+      "TRAINERS"
+    ],
+    "mandatory_personalization": false,
+    "product_type_generic_product_type": "TRAINERS",
+    "customizable": false,
+    "search_color_raw": "ホワイト",
+    "is_orderable": true,
+    "isWaitingRoomProduct": false,
+    "isInPreview": false,
+    "max_order_quantity": 5,
+    "specialLaunch": true,
+    "special_launch_type": "EXCLUSIVE_ACCESS",
+    "sizeTypes": {},
+    "is_flash": false,
+    "is_made_to_be_remade": false,
+    "coming_soon_signup": false,
+    "preview_to": "2023-12-01T01:00:00.000Z",
+    "product_sizing_category": null,
+    "size_chart_id": "size-chart-NA", // Needed for fetching size chart
+    "size_chart_link": "/on/demandware.store/Sites-adidas-JP-Site/ja_JP/Page-Include?cid=size-chart-NA"
+  },
+  // Breadcrumb
+  "breadcrumb_list": [
+    {
+      "text": "オリジナルス",
+      "link": "/オリジナルス"
+    },
+    {
+      "text": "シューズ・靴",
+      "link": "/シューズ・靴-オリジナルス"
+    }
+  ],
+  "callouts": {
+    "callout_top_stack": [
+      {
+        "id": "30-pdp-limited-edition"
+      }
+    ]
+  },
+
+  // PRICE
+  "pricing_information": {
+    "currentPrice": 15950,
+    "standard_price": 15950,
+    "standard_price_no_vat": 14500
+  },
+  "price_information": [
+    {
+      "value": 15950,
+      "value_no_vat": 14500,
+      "type": "original"
+    }
+  ],
+  "tax_class_id": "FullTax",
+  "product_description": { // Title
+    "title": "サンバ OG / Samba OG",
+    "text": "元々ピッチ用として誕生したサンバは、今ではストリートスタイルのタイムレスなアイコン的存在となった。このバージョンは、薄型スタイルとソフトなレザーアッパー、スエードオーバーレイ、そしてガムソールで、伝説的なオリジナルモデルの要素を忠実に踏襲した、ピッチの内外で定番アイテムになること間違いなしの一足。",
+    "subtitle": "アディダス・オリジナルスが誇る名作、サンバ。", // title of desc
+    "usps": [
+      "レギュラーフィット",
+      "シューレースクロージャー",
+      "フルグレインレザーアッパーにざらっとした質感のスエードオーバーレイ / ゴールドフォイルのディテール",
+      "合成レザーライニング / ガムラバーカップソール",
+      "ガムラバーミッドソール"
+    ],
+    "wash_care_instructions": {
+      "care_instructions": []
+    },
+    "description_assets": {
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b067d21288bc43ec8298a8bf01180400_9366/OG_-_Samba_OG_B75806.jpg",
+      "video_url": null,
+      "poster_url": null
+    }
+  },
+  "recommendationsEnabled": true,
+  "product_link_list": [
+    {
+      "type": "color-variation",
+      "productId": "B75807",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/B75807.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/ee99b4b9bde74f30a933a8bf011911ae_9366/OG_-_Samba_OG_B75807_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9d87bb33ae164cc38058a8bd00ef61d6_9366/OG_-_Samba_OG_B75807_010_hover_standard.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4c70105150234ac4b948a8bf01187e0c_faec/OG_-_Samba_OG_B75807_db01_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4c70105150234ac4b948a8bf01187e0c_faec/OG_-_Samba_OG_B75807_db01_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラック",
+      "default_color": "Core Black / Cloud White / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "ID1454",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/ID1454.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/cfc6fc83888c4483b4644a3f711ff4ef_9366/OG_-_Samba_OG_ID1454_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/fbef791ef19e4081889c6ced94d53147_9366/OG_-_Samba_OG_ID1454_02_standard_hover.jpg",
+      "pricing_information": {
+        "standard_price": 15400
+      },
+      "price_information": [
+        {
+          "value": 15400,
+          "value_no_vat": 14000,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブルー",
+      "default_color": "Preloved Ink / Halo Blue / Night Indigo",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "ID1480",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/ID1480.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/6a4b34572bc74c5abc543b8cbea2865c_9366/OG_-_Samba_OG_ID1480_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/517202961fae466f83acb990fb84f156_9366/OG_-_Samba_OG_ID1480_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3c7b8ce5b49943f295dcd8cba0acf3b0_faec/OG_-_Samba_OG_ID1480_db01_standard.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3c7b8ce5b49943f295dcd8cba0acf3b0_faec/OG_-_Samba_OG_ID1480_db01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 15400
+      },
+      "price_information": [
+        {
+          "value": 15400,
+          "value_no_vat": 14000,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "Cloud White / Off White / Core Black",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "ID1481",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/ID1481.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/ad55ee55e5a3426b9b394e7362c43210_9366/OG_-_Samba_OG_ID1481_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e163b74e67604be6a2178c90d1920162_9366/OG_-_Samba_OG_ID1481_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e705950e3c3f409f9f284459b7d31b1f_faec/OG_-_Samba_OG_ID1481_db01_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e705950e3c3f409f9f284459b7d31b1f_faec/OG_-_Samba_OG_ID1481_db01_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラウン",
+      "default_color": "Brown / Putty Grey / Gold Metallic",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "ID1483",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/ID1483.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/f73cbd1030984776823b9f7f342ee8a6_9366/OG_-_Samba_OG_ID1483_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/1f1235520cfa4ee690efcae5a824db04_9366/OG_-_Samba_OG_ID1483_02_standard_hover.jpg",
+      "pricing_information": {
+        "standard_price": 15400
+      },
+      "price_information": [
+        {
+          "value": 15400,
+          "value_no_vat": 14000,
+          "type": "original"
+        }
+      ],
+      "search_color": "グリーン",
+      "default_color": "Shadow Green / Cream White / Gold Metallic",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "ID2056",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/ID2056.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/507b9464089e4c818536b4613435aebf_9366/OG_-_Samba_OG_ID2056_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3bba5de340e54500aee221800962756c_9366/OG_-_Samba_OG_ID2056_010_hover_standard.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/107e883f06e74531a067ee86b3467f5c_faec/OG_-_Samba_OG_ID2056_db01_standard.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/107e883f06e74531a067ee86b3467f5c_faec/OG_-_Samba_OG_ID2056_db01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブルー",
+      "default_color": "Night Navy / Cream White / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "IE3438",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/IE3438.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/fa7627db13da42ce8770fb26f5fabab9_9366/OG_-_Samba_OG_IE3438_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e22eeb237fa046d88c9cd46588852f2f_9366/OG_-_Samba_OG_IE3438_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e2f8f7e1c3c94815a2cbdea28b6255d6_faec/OG_-_Samba_OG_IE3438_db01_standard.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e2f8f7e1c3c94815a2cbdea28b6255d6_faec/OG_-_Samba_OG_IE3438_db01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラック",
+      "default_color": "Core Black / Core Black / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "IE3439",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/IE3439.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d0c25ce82572482f820d5a7fc9021afb_9366/OG_-_Samba_OG_IE3439_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/6dd69b837af34e3a99785f2849a3841b_9366/OG_-_Samba_OG_IE3439_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/65be906afc06467f8ff483e9a3b38383_faec/OG_-_Samba_OG_IE3439_db01_standard.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/65be906afc06467f8ff483e9a3b38383_faec/OG_-_Samba_OG_IE3439_db01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "Cloud White / Cloud White / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "IE9133",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/IE9133.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/dbe92769e20d4052a8e102edeade6edb_9366/OG_-_Samba_OG_IE9133_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/09e8de4df9c84870af7d7a4e8f4aeb72_9366/OG_-_Samba_OG_IE9133_01_03_hover_standard.jpg",
+      "pricing_information": {
+        "standard_price": 16500
+      },
+      "price_information": [
+        {
+          "value": 16500,
+          "value_no_vat": 15000,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラック",
+      "default_color": "Core Black / Grey Five / Core Black",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "IE9163",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/IE9163.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/f14d9d18d2964c0ca4e98ef7ad32517a_9366/OG_-_Samba_OG_IE9163_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/c26de819c19144c683c51fdb89b89202_9366/OG_-_Samba_OG_IE9163_02_standard_hover.jpg",
+      "pricing_information": {
+        "standard_price": 16500
+      },
+      "price_information": [
+        {
+          "value": 16500,
+          "value_no_vat": 15000,
+          "type": "original"
+        }
+      ],
+      "search_color": "グリーン",
+      "default_color": "Base Green / Core Black / Brown Desert",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "IE9164",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/IE9164.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/cd3cd0604de64356b6e7ec5d975c1f43_9366/OG_-_Samba_OG_IE9164_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/6db429a289294a8ba34df663f74a1c18_9366/OG_-_Samba_OG_IE9164_02_standard_hover.jpg",
+      "pricing_information": {
+        "standard_price": 16500
+      },
+      "price_information": [
+        {
+          "value": 16500,
+          "value_no_vat": 15000,
+          "type": "original"
+        }
+      ],
+      "search_color": "グレー",
+      "default_color": "Halo Silver / Core Black / Brown Desert",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "IG1024",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/IG1024.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/80a951792b4149f5b62dafab00f9ca9e_9366/OG_-_Samba_OG_IG1024_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/aa8968648a604bb3971dafab00e9b6ec_9366/OG_-_Samba_OG_IG1024_02_standard_hover_hover_hover_hover_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/a34f007a106043afb2f3afab00e997ee_faec/OG_-_Samba_OG_IG1024_db01_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/a34f007a106043afb2f3afab00e997ee_faec/OG_-_Samba_OG_IG1024_db01_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 15400
+      },
+      "price_information": [
+        {
+          "value": 15400,
+          "value_no_vat": 14000,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "Cloud White / Green / Supplier Colour",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "IG1025",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/IG1025.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/5c7f0a2ca4c5450fbea8afb200f9f923_9366/OG_-_Samba_OG_IG1025_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/43d0a51cea1c494d87b7afb200f9a16e_9366/OG_-_Samba_OG_IG1025_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/7b283df1eb6c4c9ab4a3afb200f9876a_faec/OG_-_Samba_OG_IG1025_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/7b283df1eb6c4c9ab4a3afb200f9876a_faec/OG_-_Samba_OG_IG1025_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 15400
+      },
+      "price_information": [
+        {
+          "value": 15400,
+          "value_no_vat": 14000,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "Cloud White / Better Scarlet / Supplier Colour",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "IH4879",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/IH4879.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2083e76ffdb544e5871883fcf21b1b39_9366/OG_-_Samba_OG_IH4879_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/97847e0bee524ea2b5e5eba776e1a652_9366/OG_-_Samba_OG_IH4879_02_standard_hover.jpg",
+      "pricing_information": {
+        "standard_price": 15400
+      },
+      "price_information": [
+        {
+          "value": 15400,
+          "value_no_vat": 14000,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "Cloud White / Cloud White / Core Black",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "IH4882",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/IH4882.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/ee82199187854559b6f1ad6e95012b6f_9366/OG_-_Samba_OG_IH4882_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/acadbe5a16a44a0a9340a47e087ab0be_9366/OG_-_Samba_OG_IH4882_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/32f939960439490da70e8fc81e3f5243_faec/OG_-_Samba_OG_IH4882_db01_standard.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/32f939960439490da70e8fc81e3f5243_faec/OG_-_Samba_OG_IH4882_db01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラック",
+      "default_color": "Black White / Collegiate Green / Active Green",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JH5633",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JH5633.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/7a18aafaca3c42238a947b5f9adf4852_9366/OG_-_Samba_OG_JH5633_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3f7a89b4aa8c400fbc96ff508aa1fb06_9366/OG_-_Samba_OG_JH5633_02_standard_hover.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "Cloud White / Night Indigo / Cream White",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JH8795",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JH8795.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9168f0a98c2b407db931b1b39f813f19_9366/OG_-_Samba_OG_JH8795_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b8b8f7227bb54c5aae7aab09c50fa993_9366/OG_-_Samba_OG_JH8795_02_standard_hover.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "Cloud White / Night Indigo / Clear Granite",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JH8797",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JH8797.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/6157b3fbd31d4df1a43835fd24fcd9af_9366/OG_-_Samba_OG_JH8797_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/10449c3064104981b15d6ba0dbb0cff0_9366/OG_-_Samba_OG_JH8797_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/143faafe8b2146119c2cb1e1025a9db2_faec/OG_-_Samba_OG_JH8797_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/143faafe8b2146119c2cb1e1025a9db2_faec/OG_-_Samba_OG_JH8797_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "Cloud White / Collegiate Green / Clear Granite",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JH8798",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JH8798.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/70f2d161aa004cafa7a0d321c661b3ba_9366/OG_-_Samba_OG_JH8798_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e84af3f24b88497ab6544419c2b3de72_9366/OG_-_Samba_OG_JH8798_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9a81c03ebcb147cc9fd67ca4899c7c61_faec/OG_-_Samba_OG_JH8798_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9a81c03ebcb147cc9fd67ca4899c7c61_faec/OG_-_Samba_OG_JH8798_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "Cloud White / Preloved Ruby / Clear Granite",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JI3184",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JI3184.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/74ceb81780e745c0b4d61ceb4acf15d6_9366/OG_-_Samba_OG_JI3184_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2c67a7962e1f41af8e9bbe289303178a_9366/OG_-_Samba_OG_JI3184_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4d5c3f9057fd4d429833f3bc0eb163b1_faec/OG_-_Samba_OG_JI3184_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4d5c3f9057fd4d429833f3bc0eb163b1_faec/OG_-_Samba_OG_JI3184_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラウン",
+      "default_color": "Earth Strata / Wonder White / Magic Beige",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JI3185",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JI3185.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/cd5d3f2af1344730afeb0d83c5d9b50a_9366/OG_-_Samba_OG_JI3185_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/5e8e0d989e2d4a6583007fc26cbd658e_9366/OG_-_Samba_OG_JI3185_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/f04fdaaf13054e7f9c568a4d6d267ba9_faec/OG_-_Samba_OG_JI3185_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/f04fdaaf13054e7f9c568a4d6d267ba9_faec/OG_-_Samba_OG_JI3185_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "Cream White / Cardboard / Crystal Sand",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JI3231",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JI3231.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/fab3bbc4802a46d28c3526c7e5442be5_9366/OG_-_Samba_OG_JI3231_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/64a1ba0e12fd4d11b2f9fd6dcfa6e528_9366/OG_-_Samba_OG_JI3231_15_hover_standard.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/7cf701980b2842099a8ef80b88363313_faec/OG_-_Samba_OG_JI3231_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/7cf701980b2842099a8ef80b88363313_faec/OG_-_Samba_OG_JI3231_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 19800
+      },
+      "price_information": [
+        {
+          "value": 19800,
+          "value_no_vat": 18000,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラウン",
+      "default_color": "Brown / Brown / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JI3232",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JI3232.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e045384399b04150aaa173a065066884_9366/OG_-_Samba_OG_JI3232_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/1fbb87297bfc4119912e675f52e22293_9366/OG_-_Samba_OG_JI3232_15_hover_standard.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/bfb57381fd354447834482b207719ef0_faec/OG_-_Samba_OG_JI3232_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/bfb57381fd354447834482b207719ef0_faec/OG_-_Samba_OG_JI3232_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 19800
+      },
+      "price_information": [
+        {
+          "value": 19800,
+          "value_no_vat": 18000,
+          "type": "original"
+        }
+      ],
+      "search_color": "レッド",
+      "default_color": "Dust Rust / Dust Rust / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JP9281",
+      "name": "キャロライン フウ サンバ OG サテン / Caroline Hú Samba OG Satin",
+      "url": "/%E3%82%AD%E3%83%A3%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%95%E3%82%A6-%E3%82%B5%E3%83%B3%E3%83%90-og-%E3%82%B5%E3%83%86%E3%83%B3-caroline-h%C3%BA-samba-og-satin/JP9281.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/5c8ef9ad8373426ea777e13644044dd8_9366/OG_-_Caroline_Hu_Samba_OG_Satin_JP9281_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/06cef1eb21ee4e7fb29b94ff098347ba_9366/OG_-_Caroline_Hu_Samba_OG_Satin_JP9281_15_hover_standard.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2676e75525f9498b935dc41f6544b59a_faec/OG_-_Caroline_Hu_Samba_OG_Satin_JP9281_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2676e75525f9498b935dc41f6544b59a_faec/OG_-_Caroline_Hu_Samba_OG_Satin_JP9281_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 25300
+      },
+      "price_information": [
+        {
+          "value": 25300,
+          "value_no_vat": 23000,
+          "type": "original"
+        }
+      ],
+      "search_color": "レッド",
+      "default_color": "Power Red / Cream White / Shadow Red",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JP9282",
+      "name": "キャロライン フウ サンバ OG サテン / Caroline Hú Samba OG Satin",
+      "url": "/%E3%82%AD%E3%83%A3%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%95%E3%82%A6-%E3%82%B5%E3%83%B3%E3%83%90-og-%E3%82%B5%E3%83%86%E3%83%B3-caroline-h%C3%BA-samba-og-satin/JP9282.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d66308f4a67b417f822655df9f56c062_9366/OG_-_Caroline_Hu_Samba_OG_Satin_JP9282_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/44dcf18b8fa4448484745adf8ee9f874_9366/OG_-_Caroline_Hu_Samba_OG_Satin_JP9282_15_hover_standard.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/978a8e88bb8f4a0bb3cade3e9ad8e3ed_faec/OG_-_Caroline_Hu_Samba_OG_Satin_JP9282_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/978a8e88bb8f4a0bb3cade3e9ad8e3ed_faec/OG_-_Caroline_Hu_Samba_OG_Satin_JP9282_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 25300
+      },
+      "price_information": [
+        {
+          "value": 25300,
+          "value_no_vat": 23000,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブルー",
+      "default_color": "Dark Blue / Silver Metallic / Chalk White",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JP9283",
+      "name": "キャロライン フウ サンバ OG サテン / Caroline Hú Samba OG Satin",
+      "url": "/%E3%82%AD%E3%83%A3%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%95%E3%82%A6-%E3%82%B5%E3%83%B3%E3%83%90-og-%E3%82%B5%E3%83%86%E3%83%B3-caroline-h%C3%BA-samba-og-satin/JP9283.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/45c27c8b87ce434ea1f46b13d54e0b39_9366/OG_-_Caroline_Hu_Samba_OG_Satin_JP9283_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/cb1ae9a341714bd6a440863b4b531acb_9366/OG_-_Caroline_Hu_Samba_OG_Satin_JP9283_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9298abc93fab4e1886d69974c1c32168_faec/OG_-_Caroline_Hu_Samba_OG_Satin_JP9283_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9298abc93fab4e1886d69974c1c32168_faec/OG_-_Caroline_Hu_Samba_OG_Satin_JP9283_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 25300
+      },
+      "price_information": [
+        {
+          "value": 25300,
+          "value_no_vat": 23000,
+          "type": "original"
+        }
+      ],
+      "search_color": "シルバー",
+      "default_color": "Silver Metallic / Cream White / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JQ8835",
+      "name": "adidas x ジェレミー・スコット・サンバ OG / adidas x Jeremy Scott Samba OG Shoes",
+      "url": "/adidas-x-%E3%82%B8%E3%82%A7%E3%83%AC%E3%83%9F%E3%83%BC%E3%83%BB%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%83%BB%E3%82%B5%E3%83%B3%E3%83%90-og-adidas-x-jeremy-scott-samba-og-shoes/JQ8835.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/783d87b545b044a88f4325575d0f14cc_9366/adidas_x_OG_-_adidas_x_Jeremy_Scott_Samba_OG_Shoes_JQ8835_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d94ca2cfd0bf4a66819c4e1eed8fea01_9366/adidas_x_OG_-_adidas_x_Jeremy_Scott_Samba_OG_Shoes_JQ8835_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e9fa83b310e34ec3b18fe0af4dc9979f_faec/adidas_x_OG_-_adidas_x_Jeremy_Scott_Samba_OG_Shoes_JQ8835_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e9fa83b310e34ec3b18fe0af4dc9979f_faec/adidas_x_OG_-_adidas_x_Jeremy_Scott_Samba_OG_Shoes_JQ8835_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 17600
+      },
+      "price_information": [
+        {
+          "value": 17600,
+          "value_no_vat": 16000,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラック",
+      "default_color": "Core Black / Cloud White / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JR0910",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JR0910.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/1bda9c4b8d3b4b58878e3dd29f36f0fe_9366/OG_-_Samba_OG_JR0910_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/5762be3df03746b69d10c2ee86ba7271_9366/OG_-_Samba_OG_JR0910_02_standard_hover.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラック",
+      "default_color": "Core Black / Impact Orange / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JR0911",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JR0911.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/dcada7e4712c4b9d9841203777cd955b_9366/OG_-_Samba_OG_JR0911_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/ca3d2951c63e413db0e4f6fba21c214c_9366/OG_-_Samba_OG_JR0911_02_standard_hover.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラック",
+      "default_color": "Core Black / Screaming Green / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JR0912",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JR0912.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/563c0d19d10c4ee292cebe63ba1c423b_9366/OG_-_Samba_OG_JR0912_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/069e17cb4ac54305abbc6ad00887934d_9366/OG_-_Samba_OG_JR0912_02_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/a0cfe43974114be08c17aa995d59d114_faec/OG_-_Samba_OG_JR0912_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/a0cfe43974114be08c17aa995d59d114_faec/OG_-_Samba_OG_JR0912_db01_00_standard.tiff.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "Cloud White / Cardboard / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "JR7109",
+      "name": "サンバ OG / Samba OG",
+      "url": "/%E3%82%B5%E3%83%B3%E3%83%90-og-samba-og/JR7109.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d54e1dfd89a34ecc8d1c85bae28ae009_9366/OG_-_Samba_OG_JR7109_00_plp_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/17ad7ce04c82462697f34b2ace444069_9366/OG_-_Samba_OG_JR7109_03_standard_hover.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d6cd2fa0f18c4fc3a3a12748210fbfde_faec/OG_-_Samba_OG_JR7109_db01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d6cd2fa0f18c4fc3a3a12748210fbfde_faec/OG_-_Samba_OG_JR7109_db01_00_standard.jpg",
+      "pricing_information": {
+        "standard_price": 15950
+      },
+      "price_information": [
+        {
+          "value": 15950,
+          "value_no_vat": 14500,
+          "type": "original"
+        }
+      ],
+      "search_color": "ブラック",
+      "default_color": "Core Black / Clear Mint / Gum",
+      "team_kits": [],
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "complete-the-look",
+      "productId": "IJ5616",
+      "name": "トレフォイル クッション クルーソックス 3足組",
+      "url": "/%E3%83%88%E3%83%AC%E3%83%95%E3%82%A9%E3%82%A4%E3%83%AB-%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BD%E3%83%83%E3%82%AF%E3%82%B9-3%E8%B6%B3%E7%B5%84/IJ5616.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/81f8224d7c9c407eac21af720122cfdb_9366/3_IJ5616_01_01_00_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/81f8224d7c9c407eac21af720122cfdb_9366/3_IJ5616_01_01_00_standard.jpg",
+      "dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/81f8224d7c9c407eac21af720122cfdb_faec/3_IJ5616_db01_01_00_standard.tiff.jpg",
+      "confirmed_dynamic_background_image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/81f8224d7c9c407eac21af720122cfdb_faec/3_IJ5616_db01_01_00_standard.jpg",
+      "pricing_information": {
+        "standard_price": 2200
+      },
+      "price_information": [
+        {
+          "value": 2200,
+          "value_no_vat": 2000,
+          "type": "original"
+        }
+      ],
+      "search_color": "ホワイト",
+      "default_color": "White",
+      "source": "CLOUDINARY"
+    }
+  ],
+  "events": [
+    {
+      "eventType": "Regular",
+      "channelTypes": [
+        "Web",
+        "adidasApp",
+        "Trilogy"
+      ],
+      "eventEndDate": "2030-12-31T14:59:00.000Z",
+      "eventStartDate": "2023-11-29T01:00:00.000Z",
+      "exclusivityGroup": "None"
+    }
+  ],
+  "post_event_behavior": "SOLD_OUT",
+  "product_certificates": {
+    "legalCountryofOrigin": "Cambodia"
+  },
+  "variation_list": [
+    {
+      "sku": "B75806_530",
+      "size": "22.0cm"
+    },
+    {
+      "sku": "B75806_540",
+      "size": "22.5cm"
+    },
+    {
+      "sku": "B75806_550",
+      "size": "23.0cm"
+    },
+    {
+      "sku": "B75806_560",
+      "size": "23.5cm"
+    },
+    {
+      "sku": "B75806_570",
+      "size": "24.0cm"
+    },
+    {
+      "sku": "B75806_580",
+      "size": "24.5cm"
+    },
+    {
+      "sku": "B75806_590",
+      "size": "25.0cm"
+    },
+    {
+      "sku": "B75806_600",
+      "size": "25.5cm"
+    },
+    {
+      "sku": "B75806_610",
+      "size": "26.0cm"
+    },
+    {
+      "sku": "B75806_620",
+      "size": "26.5cm"
+    },
+    {
+      "sku": "B75806_630",
+      "size": "27.0cm"
+    },
+    {
+      "sku": "B75806_640",
+      "size": "27.5cm"
+    },
+    {
+      "sku": "B75806_650",
+      "size": "28.0cm"
+    },
+    {
+      "sku": "B75806_660",
+      "size": "28.5cm"
+    },
+    {
+      "sku": "B75806_670",
+      "size": "29.0cm"
+    },
+    {
+      "sku": "B75806_680",
+      "size": "29.5cm"
+    },
+    {
+      "sku": "B75806_690",
+      "size": "30.0cm"
+    },
+    {
+      "sku": "B75806_700",
+      "size": "30.5cm"
+    },
+    {
+      "sku": "B75806_710",
+      "size": "31.0cm"
+    },
+    {
+      "sku": "B75806_720",
+      "size": "31.5cm"
+    },
+    {
+      "sku": "B75806_730",
+      "size": "32.0cm"
+    },
+    {
+      "sku": "B75806_740",
+      "size": "32.5cm"
+    },
+    {
+      "sku": "B75806_750",
+      "size": "33.0cm"
+    },
+    {
+      "sku": "B75806_760",
+      "size": "33.5cm"
+    },
+    {
+      "sku": "B75806_780",
+      "size": "34.5cm"
+    },
+    {
+      "sku": "B75806_790",
+      "size": "35.5cm"
+    },
+    {
+      "sku": "B75806_800",
+      "size": "36.5cm"
+    }
+  ],
+  "links": {
+    "self": {
+      "href": "/api/products/B75806"
+    }
+  }
+}

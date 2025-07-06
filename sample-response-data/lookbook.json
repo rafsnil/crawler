@@ -1,0 +1,159 @@
+{
+  "mfId": "lookbook-microfrontend",
+  "mfServer": "https://microfrontends.glass.adidas.com/lookbook-microfrontend",
+  "context": {
+    "brand": "adidas",
+    "locale": "ja_JP",
+    "env": "production"
+  },
+  "translations": {
+    "abtest.ageCheck": "はい、16歳以上です。",
+    "membership.buy.voucher.eligible": "Unlock discount vouchers by swapping your adiClub points:",
+    "membership.buy.voucher.eligible.link": "selected items",
+    "membership.buy.voucher.eligible.text": "Swap adiClub points for a discount voucher on {0}",
+    "membership.buy.voucher.message": "特典交換ポイントはクーポンと交換できます",
+    "membership.buy.voucher.message.eligible": "特典交換ポイントをクーポンに交換しよう",
+    "membership.buy.voucher.message.no.points": "特典交換ポイント残高が不足しているため、割引クーポンを取得できません。",
+    "membership.buy.vouchers.callout.cta": "クーポンをポイントと交換"
+  },
+  "baseLookbookURL": "/lookbook",
+  "imageList": [
+    {
+      "desktop": "https://images.wear2.jp/coordinate/08iYlEPk/W2PmYuSX/1751505829.jpg",
+      "tablet": "https://images.wear2.jp/coordinate/08iYlEPk/W2PmYuSX/1751505829_500.jpg",
+      "mobile": "https://images.wear2.jp/coordinate/08iYlEPk/W2PmYuSX/1751505829_320.jpg"
+    },
+    {
+      "desktop": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/cmDJ79Al/1751505830.jpg",
+      "tablet": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/cmDJ79Al/1751505830_500.jpg",
+      "mobile": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/cmDJ79Al/1751505830_320.jpg"
+    },
+    {
+      "desktop": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/ABqHBLy0/1751505830.jpg",
+      "tablet": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/ABqHBLy0/1751505830_500.jpg",
+      "mobile": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/ABqHBLy0/1751505830_320.jpg"
+    },
+    {
+      "desktop": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/wx1uktHy/1751505830.jpg",
+      "tablet": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/wx1uktHy/1751505830_500.jpg",
+      "mobile": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/wx1uktHy/1751505830_320.jpg"
+    },
+    {
+      "desktop": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/6J6aV804/1751505830.jpg",
+      "tablet": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/6J6aV804/1751505830_500.jpg",
+      "mobile": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/6J6aV804/1751505830_320.jpg"
+    },
+    {
+      "desktop": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/k8nDfqCM/1751505830.jpg",
+      "tablet": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/k8nDfqCM/1751505830_500.jpg",
+      "mobile": "https://images.wear2.jp/coordinate_sub_image/08iYlEPk/k8nDfqCM/1751505830_320.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "KD6258",
+      "name": "アディダス オリジナルス カモフラージュ ベスト",
+      "imgNormal": "https://assets.adidas.com/images/w_600,f_auto,q_auto/1536374c78d246b48fdd81d6952a3cf6_9366/KD6258_000_plp_model.jpg",
+      "standaloneImageLink": "",
+      "currentPrice": "¥16,500",
+      "originalPrice": "¥16,500",
+      "category": "オリジナルス",
+      "url": "https://www.adidas.jp/%E3%82%A2%E3%83%87%E3%82%A3%E3%83%80%E3%82%B9-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B9-%E3%82%AB%E3%83%A2%E3%83%95%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A5-%E3%83%99%E3%82%B9%E3%83%88/KD6258.html?pr=lookbook&slot=1",
+      "priceInformation": [
+        {
+          "value": 16500,
+          "valueNoVat": 15000,
+          "type": "original"
+        }
+      ]
+    },
+    {
+      "id": "IA4846",
+      "name": "アディカラー クラシックス スリーストライプス Tシャツ",
+      "imgNormal": "https://assets.adidas.com/images/w_600,f_auto,q_auto/970d213c54764c0f9a2daf150099f6a7_9366/T_IA4846_01_laydown.jpg",
+      "standaloneImageLink": "https://assets.adidas.com/images/w_600,f_auto,q_auto/970d213c54764c0f9a2daf150099f6a7_9366/T_IA4846_01_laydown.jpg",
+      "currentPrice": "¥4,400",
+      "originalPrice": "¥4,400",
+      "category": "オリジナルス",
+      "url": "https://www.adidas.jp/%E3%82%A2%E3%83%87%E3%82%A3%E3%82%AB%E3%83%A9%E3%83%BC-%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B9%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%97%E3%82%B9-t%E3%82%B7%E3%83%A3%E3%83%84/IA4846.html?pr=lookbook&slot=2",
+      "priceInformation": [
+        {
+          "value": 4400,
+          "valueNoVat": 4000,
+          "type": "original"
+        }
+      ]
+    },
+    {
+      "id": "JC6719",
+      "name": "アディカラー デニム ファイヤーバードショーツ",
+      "imgNormal": "https://assets.adidas.com/images/w_600,f_auto,q_auto/adb052b0f3a1484e91dc284ecefd4e6d_9366/JC6719_000_plp_model.jpg",
+      "standaloneImageLink": "",
+      "currentPrice": "¥12,100",
+      "originalPrice": "¥12,100",
+      "category": "オリジナルス",
+      "url": "https://www.adidas.jp/%E3%82%A2%E3%83%87%E3%82%A3%E3%82%AB%E3%83%A9%E3%83%BC-%E3%83%87%E3%83%8B%E3%83%A0-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%90%E3%83%BC%E3%83%89%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%84/JC6719.html?pr=lookbook&slot=3",
+      "priceInformation": [
+        {
+          "value": 12100,
+          "valueNoVat": 11000,
+          "type": "original"
+        }
+      ]
+    },
+    {
+      "id": "JI2063",
+      "name": "ガゼル インドア / Gazelle Indoor",
+      "imgNormal": "https://assets.adidas.com/images/w_600,f_auto,q_auto/911ec048adc4471f938af50867c2ad85_9366/-_Gazelle_Indoor_JI2063_00_plp_standard.jpg",
+      "standaloneImageLink": "https://assets.adidas.com/images/w_600,f_auto,q_auto/911ec048adc4471f938af50867c2ad85_9366/-_Gazelle_Indoor_JI2063_00_plp_standard.jpg",
+      "currentPrice": "¥16,500",
+      "originalPrice": "¥16,500",
+      "category": "オリジナルス",
+      "url": "https://www.adidas.jp/%E3%82%AC%E3%82%BC%E3%83%AB-%E3%82%A4%E3%83%B3%E3%83%89%E3%82%A2-gazelle-indoor/JI2063.html?pr=lookbook&slot=4",
+      "priceInformation": [
+        {
+          "value": 16500,
+          "valueNoVat": 15000,
+          "type": "original"
+        }
+      ]
+    }
+  ],
+  "modelInformation": {
+    "height": "170cm",
+    "gender": "MEN",
+    "nickname": "AF",
+    "image": {
+      "desktop": "https://cdn.wimg.jp/content/no_image/profile/nu_640.gif",
+      "tablet": "https://cdn.wimg.jp/content/no_image/profile/nu_200.gif"
+    }
+  },
+  "productDimensions": [
+    {
+      "categoryName": "ジャケット/アウター",
+      "categoryKey": "jacket-outerwear",
+      "size": "XS"
+    },
+    {
+      "categoryName": "トップス",
+      "categoryKey": "tops",
+      "size": "X-SMALL"
+    },
+    {
+      "categoryName": "パンツ",
+      "categoryKey": "pants",
+      "size": "35inch"
+    },
+    {
+      "categoryName": "シューズ",
+      "categoryKey": "shoes",
+      "size": "27.5cm"
+    }
+  ],
+  "description": "アディダス ブランドコアストア 名古屋",
+  "publishedAt": "2025年7月4日",
+  "brand": "adidas",
+  "locale": "ja_JP",
+  "env": "production",
+  "styleId": "25511226"
+}
