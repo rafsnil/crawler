@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"simple-go-crawler/crawler"
+	"simple-go-crawler/scraper"
 	"time"
 )
 
@@ -19,13 +20,10 @@ func main() {
 	start := time.Now()
 
 	// Run the crawler
-	err = crawlr.Crawl(startURL)
-	if err != nil {
-		fmt.Printf("Could not crawl: %v", err)
-	}
+	crawlr.Start()
 
 	// End time
 	elapsed := time.Since(start)
 	fmt.Printf("⏱️ Crawling completed in %s\n", elapsed)
-
+	scraper.GlobalOutput.PrintToExcelSheet()
 }

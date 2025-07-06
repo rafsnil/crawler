@@ -6,6 +6,9 @@ const (
 	LOOKBOOK_SSR_DATA_IDENTIFIER = "lookbook-microfrontend"  // script -> attr: data-mf-id
 	ALL_COORDINATES_IDENTIFIER   = "styles-carousel"         // div -> attr: data-testid
 
-	SIZE_CHART_IDENTIFIER = "garment-measurement"
-	NO_SIZE_CHART         = "size-chart-NA"
+	SIZE_CHART_IDENTIFIER     = "garment-measurement"
+	NO_SIZE_CHART             = "size-chart-NA"
+	SCRIPT_DATA_IDENTIFIER    = "__NEXT_DATA__"
+	PAGE_TYPE_PRODUCT_LISTING = "ProductListingPage"
+	PAGE_TYPE_LANDING         = "GenderLandingPage"
 )

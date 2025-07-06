@@ -3,53 +3,92 @@ package common
 import (
 	"bytes"
 	"compress/gzip"
+	"encoding/json"
+	"errors"
 	"fmt"
 	"golang.org/x/net/html"
 	"io"
 	"math/rand"
 	"net/http"
+	"simple-go-crawler/constant"
+	"simple-go-crawler/dto"
 	"time"
 )
 
-var userAgents = []string{
-	"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-	"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
-	//"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-	"Mozilla/5.0 (iPhone; CPU iPhone OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
-	"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
-}
+func GetWebPageScriptData(body *html.Node) (*dto.WebPageScriptData, error) {
+	var result dto.WebPageScriptData
+	var findScript func(*html.Node) *html.Node
+	findScript = func(n *html.Node) *html.Node {
+		if n.Type == html.ElementNode && n.Data == "script" {
+			for _, attr := range n.Attr {
+				if attr.Key == "id" && attr.Val == constant.SCRIPT_DATA_IDENTIFIER {
+					return n
+				}
+			}
+		}
+		for c := n.FirstChild; c != nil; c = c.NextSibling {
+			if res := findScript(c); res != nil {
+				return res
+			}
+		}
+		return nil
+	}
 
-func GetWebPage(url string) (*html.Node, error) {
-	req, err := http.NewRequest(http.MethodGet, url, nil)
-	if err != nil {
+	scriptNode := findScript(body)
+	if scriptNode == nil {
+		return nil, errors.New("script tag with data-mf-id not found")
+	}
+
+	if scriptNode.FirstChild == nil {
+		return nil, errors.New("script tag found but no content")
+	}
+
+	jsonData := scriptNode.FirstChild.Data
+	//fmt.Printf("%s", jsonData)
+
+	decoder := json.NewDecoder(bytes.NewBufferString(jsonData))
+	if err := decoder.Decode(&result); err != nil {
 		return nil, err
 	}
 
-	SetCommonHeaders(req)
+	return &result, nil
+}
+
+func GetWebPage(url string) (string, *html.Node, error) {
+	req, err := http.NewRequest(http.MethodGet, url, nil)
+	if err != nil {
+		return "", nil, err
+	}
+
+	SetCommonHeaders(req, false)
 
 	client := &http.Client{
 		Timeout: 5 * time.Second,
 	}
 	resp, err := client.Do(req)
 	if err != nil {
-		return nil, fmt.Errorf("request failed: %v", err)
+		return "", nil, fmt.Errorf("request failed: %v", err)
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("received status code %d for url: %s", resp.StatusCode, url)
+		return "", nil, fmt.Errorf("received status code %d for url: %s", resp.StatusCode, url)
 	}
 
 	// Read the response body
 	bodyBytes, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return nil, fmt.Errorf("failed to read response body: %v", err)
+		return "", nil, fmt.Errorf("failed to read response body: %v", err)
 	}
 
 	// Print response body as string
-	fmt.Printf("Response body: %s\n", string(bodyBytes))
-
-	return GetParsedHTML(bytes.NewReader(bodyBytes))
+	//stringBody := string(bodyBytes)
+	//fmt.Printf("Response body: %s\n", string(bodyBytes))
+	output, err := GetParsedHTML(bytes.NewReader(bodyBytes))
+	if err != nil {
+		return "", nil, fmt.Errorf("failed to read response body: %v", err)
+	}
+	return string(bodyBytes), output, nil
 }
 
 // MakeAPICall makes a GET request to the specified URL and returns the response body as a string.
@@ -70,7 +109,7 @@ func MakeAPICall(url string) ([]byte, error) {
 	//req.Header.Set("Sec-Ch-Ua-Platform", "\"Windows\"")
 	////req.Header.Set("Upgrade-Insecure-Requests", "1")
 	//req.Header.Set("Referer", "https://www.adidas.jp/")
-	SetCommonHeaders(req)
+	SetCommonHeaders(req, true)
 
 	resp, err := client.Do(req)
 	if err != nil {
@@ -124,10 +163,16 @@ func MakeAPICall(url string) ([]byte, error) {
 //
 //}
 
-func SetCommonHeaders(req *http.Request) {
-	rand.Seed(time.Now().UnixNano())
-	_ = userAgents[rand.Intn(len(userAgents))]
+var referers = []string{
+	"https://www.adidas.com/",
+	"https://www.adidas.jp/",
+	"https://www.google.com/",
+	"https://www.instagram.com/",
+}
 
+func SetCommonHeaders(req *http.Request, apiCall bool) {
+	rand.Seed(time.Now().UnixNano())
+	ref := referers[rand.Intn(len(referers))]
 	req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 	req.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8")
 	req.Header.Set("Accept-Language", "en-US,en;q=0.9,ja;q=0.9")
@@ -135,7 +180,11 @@ func SetCommonHeaders(req *http.Request) {
 	req.Header.Set("Sec-Ch-Ua", "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\"")
 	req.Header.Set("Sec-Ch-Ua-Mobile", "?0")
 	req.Header.Set("Sec-Ch-Ua-Platform", "\"Windows\"")
-	req.Header.Set("Referer", "https://www.google.com/")
+	if apiCall {
+		req.Header.Set("Referer", "https://www.adidas.jp/")
+	} else {
+		req.Header.Set("Referer", ref)
+	}
 }
 
 func GetParsedHTML(body io.Reader) (*html.Node, error) {

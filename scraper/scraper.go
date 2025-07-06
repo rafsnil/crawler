@@ -16,9 +16,9 @@ import (
 	"time"
 )
 
-func ExtractProductData(url string, counter *ProductCounter) {
+func ExtractProductData(prodId string, counter *ProductCounter) {
 	// Get Product Details
-	prodDetails, err := getProductDetails(url)
+	prodDetails, err := getProductDetails(prodId)
 	if err != nil {
 		log.Printf("Error getting product details: %v", err)
 		return
@@ -232,7 +232,7 @@ func extractLookBookData(details *dto.CoordinatesResponse) ([]*dto.CoordinatePro
 	for _, coordinate := range details.ProductList {
 		url := common.GetCoordinateLookBookWebURL(coordinate.Id)
 		// TODO: change
-		htmlBody, err := common.GetWebPage(url)
+		_, htmlBody, err := common.GetWebPage(url)
 		if err != nil {
 			log.Printf("Error getting web page: %v", err)
 			return nil, err
@@ -319,9 +319,9 @@ func getSizeChartDetails(productId, sizeChartId string) (*dto.SizeChartDetailsRe
 	return &sizeChartResp, nil
 }
 
-func getProductDetails(url string) (*dto.ProductDetailsResponse, error) {
-	productId := getProductIdFromURL(url)
-	productDetailsURL := common.GetProductDetailsAPIURL(productId)
+func getProductDetails(prodId string) (*dto.ProductDetailsResponse, error) {
+	//productId := getProductIdFromURL(url)
+	productDetailsURL := common.GetProductDetailsAPIURL(prodId)
 	prodDetailsRespJsonBytes, err := common.MakeAPICall(productDetailsURL)
 	if err != nil {
 		log.Printf("Error making API call for ProductUrl %s", productDetailsURL)
@@ -348,8 +348,9 @@ func getReviewDetails(modelNumber string) (*dto.ReviewDetailsResponse, error) {
 func aggregateAllReviews(list []*dto.ReviewDetailsResponse) *dto.ReviewDetailsResponse {
 	count := 0
 	var output dto.ReviewDetailsResponse
-	output.TotalResults = list[0].TotalResults
+	output.TotalResults = 0
 	for _, reviewData := range list {
+		output.TotalResults = reviewData.TotalResults
 		count = count + len(reviewData.ReviewDetailsList)
 		output.ReviewDetailsList = append(output.ReviewDetailsList, reviewData.ReviewDetailsList...)
 	}

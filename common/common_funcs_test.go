@@ -9,7 +9,7 @@ import (
 
 func TestGetWebPage(t *testing.T) {
 	url := "https://shop.adidas.jp/men"
-	_, err := GetWebPage(url)
+	_, _, err := GetWebPage(url)
 	if err != nil {
 		t.Errorf("Error getting web page: %v", err)
 	}

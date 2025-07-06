@@ -10,25 +10,22 @@ import (
 
 // List of HTTPS proxies (no authentication)
 var proxies = []string{
-	//"14.241.80.37:443",
-	//"43.217.134.23:443",
-	//"35.177.23.165:443",
-	//"98.130.47.34:443",
-	//"3.27.237.252:443",
-	//"200.174.198.86:443",
-	//"38.147.98.190:443",
-	//"8.222.17.214:443",
-	//"186.179.169.22:443",
-	//"194.170.146.125",
-	//"108.136.149.20",
-
-	"85.215.64.49",
+	"38.154.227.167:5868",
+	"198.23.239.134:6540",
+	"207.244.217.165:6712",
+	"107.172.163.27:6543",
+	"216.10.27.159",
+	"136.0.207.84",
+	"64.64.118.149",
+	"142.147.128.93",
+	"104.239.105.125",
+	"206.41.172.74",
 }
 
 // NewClientWithProxy creates a new *http.Client using a random proxy
 func NewClientWithProxy() *http.Client {
 	rand.Seed(time.Now().UnixNano())
-	raw := "http://" + proxies[rand.Intn(len(proxies))]
+	raw := "http://rzbeinzo:00kyb055tmdd@" + proxies[rand.Intn(len(proxies))]
 
 	proxyURL, err := url.Parse(raw)
 	if err != nil {
