@@ -2,30 +2,39 @@ package main
 
 import (
 	"fmt"
-	"simple-go-crawler/crawler"
-	"time"
+	"log"
+	"simple-go-crawler/common"
+
+	"github.com/gocolly/colly"
 )
 
 func main() {
-	startURL := "https://shop.adidas.jp/men"
+	// Create a new collector
+	c := colly.NewCollector(
+		colly.AllowedDomains("shop.adidas.jp", "www.adidas.jp"),
+	)
 
-	crawlr, err := crawler.NewCrawler(startURL)
+	// Set a custom User-Agent to avoid 403 errors
+	// Set headers to mimic a real browser
+	c.OnRequest(func(r *colly.Request) {
+		common.SetCommonHeaders(r)
+	})
+	// On every <a> tag with href, print the link
+	c.OnHTML("a[href]", func(e *colly.HTMLElement) {
+		link := e.Request.AbsoluteURL(e.Attr("href"))
+		if link != "" {
+			fmt.Println(link)
+		}
+	})
+
+	// Handle errors
+	c.OnError(func(r *colly.Response, err error) {
+		log.Printf("Error: %v\nStatus Code: %d\n", err, r.StatusCode)
+	})
+
+	// Start scraping
+	err := c.Visit("https://shop.adidas.jp/men/")
 	if err != nil {
-		fmt.Printf("Error creating crawler: %v\n", err)
-		return
+		log.Fatal(err)
 	}
-
-	// Start time
-	start := time.Now()
-
-	// Run the crawler
-	err = crawlr.Crawl(startURL)
-	if err != nil {
-		fmt.Printf("Could not crawl: %v", err)
-	}
-
-	// End time
-	elapsed := time.Since(start)
-	fmt.Printf("⏱️ Crawling completed in %s\n", elapsed)
-
 }

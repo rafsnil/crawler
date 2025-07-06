@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"compress/gzip"
 	"fmt"
+	"github.com/gocolly/colly"
 	"golang.org/x/net/html"
 	"io"
 	"math/rand"
@@ -25,7 +26,7 @@ func GetWebPage(url string) (*html.Node, error) {
 		return nil, err
 	}
 
-	SetCommonHeaders(req)
+	//SetCommonHeaders(req)
 
 	client := &http.Client{
 		Timeout: 5 * time.Second,
@@ -70,7 +71,7 @@ func MakeAPICall(url string) ([]byte, error) {
 	//req.Header.Set("Sec-Ch-Ua-Platform", "\"Windows\"")
 	////req.Header.Set("Upgrade-Insecure-Requests", "1")
 	//req.Header.Set("Referer", "https://www.adidas.jp/")
-	SetCommonHeaders(req)
+	//SetCommonHeaders(req)
 
 	resp, err := client.Do(req)
 	if err != nil {
@@ -124,18 +125,18 @@ func MakeAPICall(url string) ([]byte, error) {
 //
 //}
 
-func SetCommonHeaders(req *http.Request) {
+func SetCommonHeaders(req *colly.Request) {
 	rand.Seed(time.Now().UnixNano())
 	_ = userAgents[rand.Intn(len(userAgents))]
 
-	req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-	req.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8")
-	req.Header.Set("Accept-Language", "en-US,en;q=0.9,ja;q=0.9")
-	req.Header.Set("Accept-Encoding", "gzip, deflate, br")
-	req.Header.Set("Sec-Ch-Ua", "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\"")
-	req.Header.Set("Sec-Ch-Ua-Mobile", "?0")
-	req.Header.Set("Sec-Ch-Ua-Platform", "\"Windows\"")
-	req.Header.Set("Referer", "https://www.google.com/")
+	req.Headers.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+	req.Headers.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8")
+	req.Headers.Set("Accept-Language", "en-US,en;q=0.9,ja;q=0.9")
+	req.Headers.Set("Accept-Encoding", "gzip, deflate, br")
+	req.Headers.Set("Sec-Ch-Ua", "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\"")
+	req.Headers.Set("Sec-Ch-Ua-Mobile", "?0")
+	req.Headers.Set("Sec-Ch-Ua-Platform", "\"Windows\"")
+	req.Headers.Set("Referer", "https://www.google.com/")
 }
 
 func GetParsedHTML(body io.Reader) (*html.Node, error) {
