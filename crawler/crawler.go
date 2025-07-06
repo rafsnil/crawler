@@ -71,7 +71,7 @@ func (c *Crawler) Crawl() {
 			}
 
 			fmt.Printf("Processing URL: %s\n", k)
-			stringBody, htmlBody, err := common.GetWebPage(k)
+			stringBody, htmlBody, err := common.GetPageHTMLByPassingBot(k)
 			if err != nil {
 				fmt.Printf("Error getting web page %s: %v\n", k, err)
 				continue
@@ -79,12 +79,23 @@ func (c *Crawler) Crawl() {
 
 			allGood := checkIfHtmlResponseIsOkay(stringBody)
 			if !allGood {
+				c.urlQueue.Add(k)
 				if retry == 10 {
 					break
 				}
-				c.urlQueue.Add(k)
-				fmt.Println(stringBody)
 				fmt.Println("Got blocked by the website")
+				fmt.Println("Trying with bot bypassing method...")
+				htmlStr, htmlContent, err := common.GetPageHTMLByPassingBot(k)
+				if err != nil {
+					fmt.Printf("Error getting web page %s: %v\n", k, err)
+					break
+				}
+				alright := checkIfHtmlResponseIsOkay(htmlStr)
+				if alright {
+					c.urlQueue.Remove(k)
+					c.extractData(htmlContent)
+				}
+
 				fmt.Println("Sleeping for 30 seconds before retrying...")
 				time.Sleep(30 * time.Second)
 				retry++

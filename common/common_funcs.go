@@ -6,12 +6,17 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/go-rod/rod"
+	"github.com/go-rod/rod/lib/input"
+	"github.com/go-rod/rod/lib/launcher"
+	"github.com/go-rod/stealth"
 	"golang.org/x/net/html"
 	"io"
 	"math/rand"
 	"net/http"
 	"simple-go-crawler/constant"
 	"simple-go-crawler/dto"
+	"strings"
 	"time"
 )
 
@@ -226,4 +231,49 @@ func convertGzip(content []byte) ([]byte, error) {
 	}
 	defer reader.Close()
 	return io.ReadAll(reader)
+}
+
+func GetPageHTMLByPassingBot(url string) (string, *html.Node, error) {
+	// Create a launcher with leakless disabled
+	u := launcher.New().
+		Leakless(false). // This disables the use of leakless.exe
+		Headless(true). // Run in headless mode (optional)
+		MustLaunch()
+
+	// Connect to the launched browser
+	browser := rod.New().ControlURL(u).MustConnect()
+
+	// Open the page
+	page, err := stealth.Page(browser)
+	if err != nil {
+		return "", nil, err
+	}
+
+	page.Mouse.MustMoveTo(200, 200)
+	page.Keyboard.Press(input.Tab)
+	time.Sleep(2 * time.Second)
+
+	// Navigate to the provided URL
+	err = page.Navigate(url)
+	if err != nil {
+		return "", nil, err
+	}
+
+	// Optional: Wait until the page fully loads
+	page.MustWaitLoad()
+
+	//page.MustReload()
+	page.MustScreenshotFullPage("")
+	// Get HTML
+	htmlStr, err := page.HTML()
+	if err != nil {
+		return "", nil, err
+	}
+
+	doc, err := html.Parse(strings.NewReader(htmlStr))
+	if err != nil {
+		return "", nil, err
+	}
+
+	return htmlStr, doc, nil
 }
