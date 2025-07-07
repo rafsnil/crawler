@@ -2,7 +2,7 @@
 
 **Target URL:** [https://shop.adidas.jp/men/](https://shop.adidas.jp/men/)
 
-This project is my first attempt at building a web crawler in Go. It's a bit messy in places, but it was an incredibly valuable learning experience.
+This project is my first ever attempt at building a web crawler in Go or in any language. It's a bit messy in places, but it was an incredibly valuable learning experience.
 
 ---
 
