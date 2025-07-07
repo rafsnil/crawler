@@ -237,7 +237,7 @@ func GetPageHTMLByPassingBot(url string) (string, *html.Node, error) {
 	// Create a launcher with leakless disabled
 	u := launcher.New().
 		Leakless(false). // This disables the use of leakless.exe
-		Headless(true). // Run in headless mode (optional)
+		Headless(false). // Run in headless mode (optional)
 		MustLaunch()
 
 	// Connect to the launched browser
@@ -263,7 +263,7 @@ func GetPageHTMLByPassingBot(url string) (string, *html.Node, error) {
 	page.MustWaitLoad()
 
 	//page.MustReload()
-	page.MustScreenshotFullPage("")
+	//page.MustScreenshotFullPage("")
 	// Get HTML
 	htmlStr, err := page.HTML()
 	if err != nil {

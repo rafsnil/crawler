@@ -106,8 +106,8 @@ func (c *Crawler) Crawl() {
 
 			fmt.Printf("Finished processing %s. Found %d links on queue.\n", k, c.urlQueue.GetLength())
 			fmt.Println("Total Products: ", c.productCounter.GetCount())
+			time.Sleep(time.Duration(rand.Intn(10)+5) * time.Second)
 		}
-		time.Sleep(time.Duration(rand.Intn(10)+5) * time.Second)
 	}
 }
 
