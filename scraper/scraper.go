@@ -7,16 +7,18 @@ import (
 	"fmt"
 	"golang.org/x/net/html"
 	"log"
-	"math/rand"
 	"simple-go-crawler/common"
 	"simple-go-crawler/constant"
 	"simple-go-crawler/dto"
 	"simple-go-crawler/model"
 	"strings"
-	"time"
 )
 
 func ExtractProductData(prodId string, counter *ProductCounter) {
+	if counter.GetCount() >= constant.DATA_LIMIT {
+		log.Println("Data limit reached, stopping extraction")
+		return
+	}
 	// Get Product Details
 	prodDetails, err := getProductDetails(prodId)
 	if err != nil {
@@ -56,11 +58,20 @@ func ExtractProductData(prodId string, counter *ProductCounter) {
 		if err != nil {
 			log.Printf("Error getting look book data: %v", err)
 		}
+
+		for _, set := range lookBookResponse {
+			for _, product := range set.Products {
+				ExtractProductData(product.Id, counter)
+			}
+		}
+
 	}
 
 	productData := aggregateAllData(prodDetails, reviewDetails, sizeChartDetails, coordinateDetails, lookBookResponse)
-	GlobalOutput.Products = append(GlobalOutput.Products, productData)
-	counter.Increment()
+	if !GlobalOutput.ProductExists(productData.Id) {
+		GlobalOutput.AddProduct(productData)
+		counter.Increment()
+	}
 }
 
 func aggregateAllData(prodDetails *dto.ProductDetailsResponse, reviewDetails *dto.ReviewDetailsResponse, sizeChartDetails *dto.SizeChartDetailsResponse, coordinateDetails dto.CoordinatesResponse, lookBookResponse []*dto.CoordinateProductsSetDto) *model.Product {
@@ -98,6 +109,7 @@ func aggregateAllData(prodDetails *dto.ProductDetailsResponse, reviewDetails *dt
 	}
 
 	productData := model.Product{
+		Id:                  prodDetails.Id,
 		Name:                prodDetails.ProductDescription.Name,
 		TitleOfDesc:         prodDetails.ProductDescription.TitleOfDesc,
 		Description:         prodDetails.ProductDescription.Description,
@@ -290,8 +302,8 @@ func getLookBookScriptData(body *html.Node) (*dto.CoordinateProductsSetDto, erro
 }
 func getCoordinateDetails(prodId string, modelNumber string) (dto.CoordinatesResponse, error) {
 	url := common.GetCoordinatesAPIURL(prodId, modelNumber)
-	d := time.Duration(rand.Intn(3)+3) * time.Second
-	fmt.Println("sleeping for", d, "before next API call For Coordinates")
+	//d := time.Duration(rand.Intn(3)+3) * time.Second
+	//fmt.Println("sleeping for", d, "before next API call For Coordinates")
 	respJsonBytes, err := common.MakeAPICall(url)
 	if err != nil {
 		log.Printf("Error making API call for CoordinatesUrl %s", url)
@@ -307,8 +319,8 @@ func getCoordinateDetails(prodId string, modelNumber string) (dto.CoordinatesRes
 
 func getSizeChartDetails(productId, sizeChartId string) (*dto.SizeChartDetailsResponse, error) {
 	sizeChartUrl := common.GetSizeChartAPIURL(productId, sizeChartId)
-	d := time.Duration(rand.Intn(3)+3) * time.Second
-	fmt.Println("sleeping for", d, "before next API call For Size Charts")
+	//d := time.Duration(rand.Intn(3)+3) * time.Second
+	//fmt.Println("sleeping for", d, "before next API call For Size Charts")
 	sizeChartRespJsonBytes, err := common.MakeAPICall(sizeChartUrl)
 	if err != nil {
 		log.Printf("Error making API call for SizeChartUrl %s", sizeChartUrl)
@@ -326,8 +338,8 @@ func getSizeChartDetails(productId, sizeChartId string) (*dto.SizeChartDetailsRe
 func getProductDetails(prodId string) (*dto.ProductDetailsResponse, error) {
 	//productId := getProductIdFromURL(url)
 	productDetailsURL := common.GetProductDetailsAPIURL(prodId)
-	d := time.Duration(rand.Intn(3)+3) * time.Second
-	fmt.Println("sleeping for", d, "before next API call For Product Details")
+	//d := time.Duration(rand.Intn(3)+3) * time.Second
+	//fmt.Println("sleeping for", d, "before next API call For Product Details")
 	prodDetailsRespJsonBytes, err := common.MakeAPICall(productDetailsURL)
 	if err != nil {
 		log.Printf("Error making API call for ProductUrl %s", productDetailsURL)
@@ -343,12 +355,12 @@ func getProductDetails(prodId string) (*dto.ProductDetailsResponse, error) {
 }
 
 func getReviewDetails(modelNumber string) (*dto.ReviewDetailsResponse, error) {
-	reviewDetailsRespList, err := extractAllReviews(modelNumber, 10, 0)
+	reviewDetailsRespList, err := extractAllReviews(modelNumber, 5, 0)
 	if err != nil {
 		return nil, err
 	}
-	finalReviewData := aggregateAllReviews(reviewDetailsRespList)
-	return finalReviewData, nil
+	//finalReviewData := aggregateAllReviews(reviewDetailsRespList)
+	return reviewDetailsRespList, nil
 }
 
 func aggregateAllReviews(list []*dto.ReviewDetailsResponse) *dto.ReviewDetailsResponse {
@@ -366,10 +378,12 @@ func aggregateAllReviews(list []*dto.ReviewDetailsResponse) *dto.ReviewDetailsRe
 
 // This API has a cap of sending only 10 data at once.
 // Hence, the recursive calls
-func extractAllReviews(modelNumber string, limit, offset int) ([]*dto.ReviewDetailsResponse, error) {
+
+// extracting just 5 for now :(
+func extractAllReviews(modelNumber string, limit, offset int) (*dto.ReviewDetailsResponse, error) {
 	reviewUrl := common.GetReviewAPIURL(modelNumber, limit, offset)
-	d := time.Duration(rand.Intn(3)+3) * time.Second
-	fmt.Println("sleeping for", d, "before next API call For All Reviews")
+	//d := time.Duration(rand.Intn(3)+3) * time.Second
+	//fmt.Println("sleeping for", d, "before next API call For All Reviews")
 	reviewDetailsRespBytes, err := common.MakeAPICall(reviewUrl)
 	if err != nil {
 		log.Printf("Error making API call for ReviewUrl %s: %v", reviewUrl, err)
@@ -382,20 +396,16 @@ func extractAllReviews(modelNumber string, limit, offset int) ([]*dto.ReviewDeta
 		return nil, fmt.Errorf("unmarshalling failed for offset %d: %w", offset, err)
 	}
 
-	if len(reviewDetailsResp.ReviewDetailsList) == 0 {
-		return []*dto.ReviewDetailsResponse{}, nil
-	}
+	//time.Sleep(time.Duration(rand.Intn(1000)+500) * time.Millisecond)
 
-	time.Sleep(time.Duration(rand.Intn(1000)+500) * time.Millisecond)
+	//remainingResponses, err := extractAllReviews(modelNumber, limit, offset+limit)
+	//if err != nil {
+	//	return nil, err
+	//}
+	//
+	//allCollectedResponses := append([]*dto.ReviewDetailsResponse{&reviewDetailsResp}, remainingResponses...)
 
-	remainingResponses, err := extractAllReviews(modelNumber, limit, offset+limit)
-	if err != nil {
-		return nil, err
-	}
-
-	allCollectedResponses := append([]*dto.ReviewDetailsResponse{&reviewDetailsResp}, remainingResponses...)
-
-	return allCollectedResponses, nil
+	return &reviewDetailsResp, nil
 }
 
 func getProductIdFromURL(url string) string {

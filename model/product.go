@@ -1,6 +1,7 @@
 package model
 
 type Product struct {
+	Id                  string
 	Name                string          // F
 	TitleOfDesc         string          // F
 	Description         string          // F
@@ -54,7 +55,6 @@ type GeneralReview struct {
 
 /*
 SKIPPED DATA DUE TO TIME CONSTRAINT:
-- Review Rating of each Item
 - Special Function
 - Sense Of Overall Properties
 - Keywords

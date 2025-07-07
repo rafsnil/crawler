@@ -16,7 +16,7 @@ import (
 
 type Crawler struct {
 	baseURL        *url.URL
-	productCounter *scraper.ProductCounter
+	ProductCounter *scraper.ProductCounter
 	visitTracker   *VisitTracker
 	urlQueue       *URLQueue
 	wg             sync.WaitGroup
@@ -30,7 +30,7 @@ func NewCrawler(baseURL string) (*Crawler, error) {
 
 	return &Crawler{
 		baseURL:        parsedURL,
-		productCounter: scraper.NewProductCounter(),
+		ProductCounter: scraper.NewProductCounter(),
 		visitTracker:   NewVisitedURLTracker(),
 		urlQueue:       NewURLQueue(),
 	}, nil
@@ -48,25 +48,13 @@ func (c *Crawler) Crawl() {
 	lastNonEmptyTime := time.Now()
 	retry := 1
 	for {
-		if c.productCounter.GetCount() >= 300 {
+		if c.ProductCounter.GetCount() >= constant.DATA_LIMIT {
 			break
 		}
 
-		if c.productCounter.GetCount() == 40 {
-			time.Sleep(100 * time.Second)
-			fmt.Println("Sleeping for 100 seconds to avoid getting blocked")
-		}
-
-		//// Load the file once
-		//if !LinksLoaded {
-		//	urls, _ := common.LoadURLsFromFile(constant.VISITED)
-		//	//if err != nil {
-		//	//	log.Printf("Error loading URLs from file: %v\n", err)
-		//	//}
-		//	for u := range urls {
-		//		c.visitTracker.IsVisited(u)
-		//	}
-		//	LinksLoaded = true
+		//if c.ProductCounter.GetCount() == 40 {
+		//	time.Sleep(100 * time.Second)
+		//	fmt.Println("Sleeping for 100 seconds to avoid getting blocked")
 		//}
 
 		if c.urlQueue.IsEmpty() {
@@ -85,7 +73,7 @@ func (c *Crawler) Crawl() {
 		for k := range urlsToProcess {
 			c.urlQueue.Remove(k)
 
-			if c.productCounter.GetCount() >= 200 {
+			if c.ProductCounter.GetCount() >= constant.DATA_LIMIT {
 				break
 			}
 
@@ -104,8 +92,8 @@ func (c *Crawler) Crawl() {
 				c.urlQueue.Add(k)
 				//fmt.Println(stringBody)
 				fmt.Println("Got blocked by the website")
-				fmt.Println("Sleeping for 30 seconds before retrying...")
-				time.Sleep(30 * time.Second)
+				fmt.Println("Sleeping for 10 seconds before retrying...")
+				time.Sleep(10 * time.Second)
 				retry++
 				continue
 			}
@@ -113,7 +101,7 @@ func (c *Crawler) Crawl() {
 			c.extractData(htmlBody)
 
 			fmt.Printf("Finished processing %s. Found %d links on queue.\n", k, c.urlQueue.GetLength())
-			fmt.Println("Total Products: ", c.productCounter.GetCount())
+			fmt.Println("Total Products: ", c.ProductCounter.GetCount())
 			d := time.Duration(rand.Intn(5)+3) * time.Second
 			// save visited url to file
 			//err = common.SaveURLToFile(k, constant.VISITED)
@@ -131,20 +119,6 @@ func checkIfHtmlResponseIsOkay(body string) bool {
 	return strings.Contains(body, constant.SCRIPT_DATA_IDENTIFIER)
 }
 
-//func (c *Crawler) Crawl(urlStr string) error {
-//	htmlBody, err := common.GetWebPage(urlStr)
-//	if err != nil {
-//		return err
-//	}
-//
-//	// extracts the links from the html body
-//	c.extractData(htmlBody)
-//
-//	//fmt.Printf("Found %d links on %s worth visiting \n", c.urlQueue.GetLength(), urlStr)
-//	//time.Sleep(1 * time.Second)
-//	return nil
-//}
-
 // Extracts links from an HTML node recursively
 func (c *Crawler) extractData(n *html.Node) {
 	scriptData, err := common.GetWebPageScriptData(n)
@@ -155,7 +129,11 @@ func (c *Crawler) extractData(n *html.Node) {
 	if scriptData.Props.PageProps.PageType == constant.PAGE_TYPE_PRODUCT_LISTING {
 		for _, product := range scriptData.Props.PageProps.Products {
 			fmt.Printf("Product found: %s\n", product.Id)
-			scraper.ExtractProductData(product.Id, c.productCounter)
+			if c.ProductCounter.GetCount() >= constant.DATA_LIMIT {
+				fmt.Println("Product limit reached, stopping extraction.")
+				return
+			}
+			scraper.ExtractProductData(product.Id, c.ProductCounter)
 		}
 	} else if scriptData.Props.PageProps.PageType == constant.PAGE_TYPE_LANDING {
 		for _, layout := range scriptData.Props.PageProps.Layouts {
@@ -175,7 +153,11 @@ func (c *Crawler) extractData(n *html.Node) {
 	if len(scriptData.Props.PageProps.Products) > 0 {
 		for _, product := range scriptData.Props.PageProps.Products {
 			fmt.Printf("Product found: %s\n", product.Id)
-			scraper.ExtractProductData(product.Id, c.productCounter)
+			if c.ProductCounter.GetCount() >= constant.DATA_LIMIT {
+				fmt.Println("Product limit reached, stopping extraction.")
+				return
+			}
+			scraper.ExtractProductData(product.Id, c.ProductCounter)
 		}
 	}
 
@@ -205,31 +187,6 @@ func (c *Crawler) extractData(n *html.Node) {
 		}
 	}
 }
-
-//func (c *Crawler) extractUrl(n *html.Node) {
-//	if n == nil {
-//		return
-//	}
-//
-//	// extracts All URLs
-//	if n.Type == html.ElementNode && n.Data == "a" {
-//		for _, attr := range n.Attr {
-//			// <a data-testid="product-card-image-link" href="/products/IQ1401">
-//			if attr.Key == "data-testid" && attr.Val == constant.PRODUCT_URL_IDENTIFIER || attr.Key == "class" && attr.Val == "_product-card__link_o6rgp_73" {
-//				isProductCard = true
-//			}
-//			if attr.Key == "href" {
-//				resolvedURL := c.resolveURL(attr.Val)
-//				if resolvedURL != "" {
-//					c.urlQueue.Add(resolvedURL)
-//				}
-//			}
-//		}
-//	}
-//	for child := n.FirstChild; child != nil; child = child.NextSibling {
-//		c.extractData(child)
-//	}
-//}
 
 // converts relative URLs to absolute URLs, returns the original URL if it's already absolute
 func (c *Crawler) resolveURL(href string) string {

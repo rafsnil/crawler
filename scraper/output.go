@@ -9,15 +9,17 @@ import (
 )
 
 type Output struct {
-	Products []*model.Product
-	mutex    sync.Mutex
+	Products   []*model.Product
+	mutex      sync.Mutex
+	ProductMap map[string]struct{} // Optional: if you want to access products by ID
 }
 
 var GlobalOutput *Output
 
 func init() {
 	GlobalOutput = &Output{
-		Products: make([]*model.Product, 0),
+		Products:   make([]*model.Product, 0),
+		ProductMap: make(map[string]struct{}),
 	}
 }
 
@@ -25,6 +27,7 @@ func (o *Output) AddProduct(product *model.Product) {
 	o.mutex.Lock()
 	defer o.mutex.Unlock()
 	o.Products = append(o.Products, product)
+	o.ProductMap[product.Id] = struct{}{}
 }
 
 func (o *Output) GetProducts() []*model.Product {
@@ -33,6 +36,14 @@ func (o *Output) GetProducts() []*model.Product {
 	products := make([]*model.Product, len(o.Products))
 	copy(products, o.Products)
 	return products
+}
+
+// check if a product with the given ID already exists
+func (o *Output) ProductExists(productId string) bool {
+	o.mutex.Lock()
+	defer o.mutex.Unlock()
+	_, exists := o.ProductMap[productId]
+	return exists
 }
 
 func (o *Output) PrintToExcelSheet() {
@@ -44,13 +55,26 @@ func (o *Output) PrintToExcelSheet() {
 	index, _ := f.NewSheet(sheet)
 	f.SetActiveSheet(index)
 
-	// Header
+	// Headers
 	headers := []string{
 		"Name", "Title", "Description", "Itemized Description",
 		"Size Chart", "Category", "Price", "Available Sizes",
 		"Image URLs", "Details URL", "Avg Rating", "Total Reviews", "Recommend %",
 		"Coordinate Products",
 	}
+
+	// Add review headers for 5 reviews
+	for i := 1; i <= 5; i++ {
+		headers = append(headers,
+			fmt.Sprintf("Review%d_Username", i),
+			fmt.Sprintf("Review%d_Rating", i),
+			fmt.Sprintf("Review%d_Title", i),
+			fmt.Sprintf("Review%d_Desc", i),
+			fmt.Sprintf("Review%d_Date", i),
+		)
+	}
+
+	// Write headers to sheet
 	for col, header := range headers {
 		cell, _ := excelize.CoordinatesToCellName(col+1, 1)
 		f.SetCellValue(sheet, cell, header)
@@ -58,7 +82,8 @@ func (o *Output) PrintToExcelSheet() {
 
 	// Write product data
 	for rowIdx, p := range o.Products {
-		row := rowIdx + 2 // start from row 2
+		row := rowIdx + 2 // Start from row 2
+
 		f.SetCellValue(sheet, fmt.Sprintf("A%d", row), p.Name)
 		f.SetCellValue(sheet, fmt.Sprintf("B%d", row), p.TitleOfDesc)
 		f.SetCellValue(sheet, fmt.Sprintf("C%d", row), p.Description)
@@ -77,7 +102,6 @@ func (o *Output) PrintToExcelSheet() {
 		}
 
 		if p.Coordinates != nil {
-			// Concatenate all coordinate product names
 			var names []string
 			for _, set := range p.Coordinates.Coordinates {
 				for _, cp := range set.CoordinateProducts {
@@ -85,6 +109,21 @@ func (o *Output) PrintToExcelSheet() {
 				}
 			}
 			f.SetCellValue(sheet, fmt.Sprintf("N%d", row), join(names))
+		}
+
+		// Add up to 5 review entries
+		if p.AllReviews != nil && len(p.AllReviews.GeneralReviews) > 0 {
+			maxReviews := 5
+			for i := 0; i < len(p.AllReviews.GeneralReviews) && i < maxReviews; i++ {
+				r := p.AllReviews.GeneralReviews[i]
+				startCol := 15 + i*5 // Starting column index for this review block (O = 15)
+
+				f.SetCellValue(sheet, fmt.Sprintf("%s%d", excelColumn(startCol), row), r.Username)
+				f.SetCellValue(sheet, fmt.Sprintf("%s%d", excelColumn(startCol+1), row), r.Rating)
+				f.SetCellValue(sheet, fmt.Sprintf("%s%d", excelColumn(startCol+2), row), r.ReviewTitle)
+				f.SetCellValue(sheet, fmt.Sprintf("%s%d", excelColumn(startCol+3), row), r.ReviewDesc)
+				f.SetCellValue(sheet, fmt.Sprintf("%s%d", excelColumn(startCol+4), row), r.ReviewDate)
+			}
 		}
 	}
 
@@ -106,4 +145,10 @@ func join(slice []string) string {
 		result += v
 	}
 	return result
+}
+
+// Convert column number to Excel letter (e.g., 1 -> A, 27 -> AA)
+func excelColumn(colIndex int) string {
+	colName, _ := excelize.ColumnNumberToName(colIndex)
+	return colName
 }

@@ -13,4 +13,5 @@ const (
 	PAGE_TYPE_LANDING         = "GenderLandingPage"
 	VISITED                   = "visited.txt" // File to store visited URLs
 	QUEUE                     = "queue.txt"   // File to store URLs to be crawled
+	DATA_LIMIT                = 250
 )
