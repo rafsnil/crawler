@@ -290,6 +290,8 @@ func getLookBookScriptData(body *html.Node) (*dto.CoordinateProductsSetDto, erro
 }
 func getCoordinateDetails(prodId string, modelNumber string) (dto.CoordinatesResponse, error) {
 	url := common.GetCoordinatesAPIURL(prodId, modelNumber)
+	d := time.Duration(rand.Intn(3)+3) * time.Second
+	fmt.Println("sleeping for", d, "before next API call For Coordinates")
 	respJsonBytes, err := common.MakeAPICall(url)
 	if err != nil {
 		log.Printf("Error making API call for CoordinatesUrl %s", url)
@@ -305,6 +307,8 @@ func getCoordinateDetails(prodId string, modelNumber string) (dto.CoordinatesRes
 
 func getSizeChartDetails(productId, sizeChartId string) (*dto.SizeChartDetailsResponse, error) {
 	sizeChartUrl := common.GetSizeChartAPIURL(productId, sizeChartId)
+	d := time.Duration(rand.Intn(3)+3) * time.Second
+	fmt.Println("sleeping for", d, "before next API call For Size Charts")
 	sizeChartRespJsonBytes, err := common.MakeAPICall(sizeChartUrl)
 	if err != nil {
 		log.Printf("Error making API call for SizeChartUrl %s", sizeChartUrl)
@@ -322,6 +326,8 @@ func getSizeChartDetails(productId, sizeChartId string) (*dto.SizeChartDetailsRe
 func getProductDetails(prodId string) (*dto.ProductDetailsResponse, error) {
 	//productId := getProductIdFromURL(url)
 	productDetailsURL := common.GetProductDetailsAPIURL(prodId)
+	d := time.Duration(rand.Intn(3)+3) * time.Second
+	fmt.Println("sleeping for", d, "before next API call For Product Details")
 	prodDetailsRespJsonBytes, err := common.MakeAPICall(productDetailsURL)
 	if err != nil {
 		log.Printf("Error making API call for ProductUrl %s", productDetailsURL)
@@ -362,6 +368,8 @@ func aggregateAllReviews(list []*dto.ReviewDetailsResponse) *dto.ReviewDetailsRe
 // Hence, the recursive calls
 func extractAllReviews(modelNumber string, limit, offset int) ([]*dto.ReviewDetailsResponse, error) {
 	reviewUrl := common.GetReviewAPIURL(modelNumber, limit, offset)
+	d := time.Duration(rand.Intn(3)+3) * time.Second
+	fmt.Println("sleeping for", d, "before next API call For All Reviews")
 	reviewDetailsRespBytes, err := common.MakeAPICall(reviewUrl)
 	if err != nil {
 		log.Printf("Error making API call for ReviewUrl %s: %v", reviewUrl, err)

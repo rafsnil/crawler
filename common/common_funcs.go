@@ -63,7 +63,7 @@ func GetWebPage(url string) (string, *html.Node, error) {
 	SetCommonHeaders(req, false)
 
 	client := &http.Client{
-		Timeout: 5 * time.Second,
+		Timeout: 10 * time.Second,
 	}
 	resp, err := client.Do(req)
 	if err != nil {
@@ -84,17 +84,14 @@ func GetWebPage(url string) (string, *html.Node, error) {
 	// Print response body as string
 	//stringBody := string(bodyBytes)
 	//fmt.Printf("Response body: %s\n", string(bodyBytes))
-	output, err := GetParsedHTML(bytes.NewReader(bodyBytes))
-	if err != nil {
-		return "", nil, fmt.Errorf("failed to read response body: %v", err)
-	}
-	return string(bodyBytes), output, nil
+	return GetParsedHTML(bytes.NewReader(bodyBytes))
 }
 
 // MakeAPICall makes a GET request to the specified URL and returns the response body as a string.
 func MakeAPICall(url string) ([]byte, error) {
+
 	client := &http.Client{
-		Timeout: 5 * time.Second,
+		Timeout: 10 * time.Second,
 	}
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
@@ -164,10 +161,9 @@ func MakeAPICall(url string) ([]byte, error) {
 //}
 
 var referers = []string{
-	"https://www.adidas.com/",
 	"https://www.adidas.jp/",
 	"https://www.google.com/",
-	"https://www.instagram.com/",
+	"https://www.adidas.jp/men",
 }
 
 func SetCommonHeaders(req *http.Request, apiCall bool) {
@@ -180,6 +176,11 @@ func SetCommonHeaders(req *http.Request, apiCall bool) {
 	req.Header.Set("Sec-Ch-Ua", "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\"")
 	req.Header.Set("Sec-Ch-Ua-Mobile", "?0")
 	req.Header.Set("Sec-Ch-Ua-Platform", "\"Windows\"")
+	req.Header.Set("Upgrade-Insecure-Requests", "1")
+	req.Header.Set("Cache-Control", "no-cache")
+	req.Header.Set("Pragma", "no-cache")
+	req.Header.Set("Connection", "keep-alive")
+
 	if apiCall {
 		req.Header.Set("Referer", "https://www.adidas.jp/")
 	} else {
@@ -187,11 +188,69 @@ func SetCommonHeaders(req *http.Request, apiCall bool) {
 	}
 }
 
-func GetParsedHTML(body io.Reader) (*html.Node, error) {
+//var (
+//	userAgents = []string{
+//		"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+//		//"Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.198 Safari/537.36",
+//		//"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.88 Safari/537.36",
+//		//"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:118.0) Gecko/20100101 Firefox/118.0",
+//	}
+//
+//	acceptLanguages = []string{
+//		"en-US,en;q=0.9,ja;q=0.9",
+//	}
+//
+//	acceptHeaders = []string{
+//		"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+//	}
+//
+//	referers = []string{
+//		"https://www.adidas.jp/",
+//		"https://www.google.com/",
+//		"https://www.adidas.jp/men",
+//		"https://www.adidas.jp/women",
+//		"https://www.adidas.jp/sports",
+//	}
+//
+//	secChUAs = []string{
+//		"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\"",
+//	}
+//
+//	secChUaPlatforms = []string{
+//		"\"Windows\"",
+//		//"\"macOS\"",
+//		//"\"Linux\"",
+//	}
+//)
+//
+//func SetCommonHeaders(req *http.Request, apiCall bool) {
+//	rand.Seed(time.Now().UnixNano())
+//
+//	req.Header.Set("User-Agent", userAgents[rand.Intn(len(userAgents))])
+//	req.Header.Set("Accept-Language", acceptLanguages[rand.Intn(len(acceptLanguages))])
+//	req.Header.Set("Accept", acceptHeaders[rand.Intn(len(acceptHeaders))])
+//	req.Header.Set("Accept-Encoding", "gzip, deflate, br")
+//	req.Header.Set("Sec-Ch-Ua", secChUAs[rand.Intn(len(secChUAs))])
+//	req.Header.Set("Sec-Ch-Ua-Mobile", "?0")
+//	req.Header.Set("Sec-Ch-Ua-Platform", secChUaPlatforms[rand.Intn(len(secChUaPlatforms))])
+//	req.Header.Set("Upgrade-Insecure-Requests", "1")
+//	req.Header.Set("Cache-Control", "no-cache")
+//	req.Header.Set("Pragma", "no-cache")
+//	req.Header.Set("Connection", "keep-alive")
+//
+//	// Set Referer
+//	if apiCall {
+//		req.Header.Set("Referer", "https://www.adidas.jp/")
+//	} else {
+//		req.Header.Set("Referer", referers[rand.Intn(len(referers))])
+//	}
+//}
+
+func GetParsedHTML(body io.Reader) (string, *html.Node, error) {
 	// Read the entire body
 	content, err := io.ReadAll(body)
 	if err != nil {
-		return nil, fmt.Errorf("failed to read body: %v", err)
+		return "", nil, fmt.Errorf("failed to read body: %v", err)
 	}
 
 	// Check if content is gzipped
@@ -199,7 +258,7 @@ func GetParsedHTML(body io.Reader) (*html.Node, error) {
 	if bytes.HasPrefix(content, []byte{0x1f, 0x8b}) {
 		content, err = convertGzip(content)
 		if err != nil {
-			return nil, fmt.Errorf("failed to decompress content: %v", err)
+			return "", nil, fmt.Errorf("failed to decompress content: %v", err)
 		}
 	}
 
@@ -216,7 +275,12 @@ func GetParsedHTML(body io.Reader) (*html.Node, error) {
 		| `NextSibling` | The next tag at the same level                                   |
 	*/
 	// Parse the HTML content
-	return html.Parse(bytes.NewReader(content))
+	//fmt.Printf(string(content))
+	doc, err := html.Parse(bytes.NewReader(content))
+	if err != nil {
+		return "", nil, fmt.Errorf("failed to parse HTML: %v", err)
+	}
+	return string(content), doc, nil
 }
 
 func convertGzip(content []byte) ([]byte, error) {

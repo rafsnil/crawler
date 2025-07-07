@@ -11,4 +11,6 @@ const (
 	SCRIPT_DATA_IDENTIFIER    = "__NEXT_DATA__"
 	PAGE_TYPE_PRODUCT_LISTING = "ProductListingPage"
 	PAGE_TYPE_LANDING         = "GenderLandingPage"
+	VISITED                   = "visited.txt" // File to store visited URLs
+	QUEUE                     = "queue.txt"   // File to store URLs to be crawled
 )

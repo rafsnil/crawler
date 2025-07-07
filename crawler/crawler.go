@@ -36,6 +36,8 @@ func NewCrawler(baseURL string) (*Crawler, error) {
 	}, nil
 }
 
+var LinksLoaded bool = false
+
 func (c *Crawler) Start() {
 	c.urlQueue.Add(c.baseURL.String())
 	c.Crawl()
@@ -49,6 +51,23 @@ func (c *Crawler) Crawl() {
 		if c.productCounter.GetCount() >= 300 {
 			break
 		}
+
+		if c.productCounter.GetCount() == 40 {
+			time.Sleep(100 * time.Second)
+			fmt.Println("Sleeping for 100 seconds to avoid getting blocked")
+		}
+
+		//// Load the file once
+		//if !LinksLoaded {
+		//	urls, _ := common.LoadURLsFromFile(constant.VISITED)
+		//	//if err != nil {
+		//	//	log.Printf("Error loading URLs from file: %v\n", err)
+		//	//}
+		//	for u := range urls {
+		//		c.visitTracker.IsVisited(u)
+		//	}
+		//	LinksLoaded = true
+		//}
 
 		if c.urlQueue.IsEmpty() {
 			if time.Since(lastNonEmptyTime) > emptyQueueTimeout {
@@ -83,7 +102,7 @@ func (c *Crawler) Crawl() {
 					break
 				}
 				c.urlQueue.Add(k)
-				fmt.Println(stringBody)
+				//fmt.Println(stringBody)
 				fmt.Println("Got blocked by the website")
 				fmt.Println("Sleeping for 30 seconds before retrying...")
 				time.Sleep(30 * time.Second)
@@ -95,8 +114,16 @@ func (c *Crawler) Crawl() {
 
 			fmt.Printf("Finished processing %s. Found %d links on queue.\n", k, c.urlQueue.GetLength())
 			fmt.Println("Total Products: ", c.productCounter.GetCount())
+			d := time.Duration(rand.Intn(5)+3) * time.Second
+			// save visited url to file
+			//err = common.SaveURLToFile(k, constant.VISITED)
+			//if err != nil {
+			//	fmt.Printf("Error saving URL %s: %v\n", k, err)
+			//}
+			fmt.Println("sleeping for", d, "before next request to load web page")
+			time.Sleep(d)
 		}
-		time.Sleep(time.Duration(rand.Intn(10)+5) * time.Second)
+
 	}
 }
 
@@ -138,6 +165,7 @@ func (c *Crawler) extractData(n *html.Node) {
 						resolvedURL := c.resolveURL(cta.RelativeUrl)
 						if resolvedURL != "" && c.shouldCrawl(resolvedURL) {
 							c.urlQueue.Add(resolvedURL)
+							//_ = common.SaveURLToFile(resolvedURL, constant.QUEUE)
 						}
 					}
 				}
